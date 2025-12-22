@@ -1,1 +1,1 @@
-{"reportName":"23PG Allure Report","testRuns":[],"statistic":{"failed":1,"broken":54,"skipped":0,"passed":0,"unknown":0,"total":55},"time":{"start":1766395516919,"stop":1766395519077,"duration":2158,"minDuration":0,"maxDuration":574,"sumDuration":574}}
+{"reportName":"23PG Allure Report","testRuns":[],"statistic":{"failed":1,"broken":54,"skipped":0,"passed":0,"unknown":0,"total":55},"time":{"start":1766396276982,"stop":1766396279561,"duration":2579,"minDuration":0,"maxDuration":521,"sumDuration":521}}
