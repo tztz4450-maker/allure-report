@@ -1,0 +1,26 @@
+[32mINFO    [0m root:api_client.py:88 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[32mINFO    [0m root:api_client.py:89 ========== 🌐 API 请求 ==========
+[32mINFO    [0m root:api_client.py:90 METHOD  : POST
+[32mINFO    [0m root:api_client.py:91 URL     : https://23pg1.com/auth/register?force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes
+[32mINFO    [0m root:api_client.py:92 HEADERS : {'Content-Type': 'application/json'}
+[32mINFO    [0m root:api_client.py:93 PARAMS  : {'force_no_encrypt': '567f9c9a-28cf-4096-b540-e428f40a1e74-jh82'}
+[32mINFO    [0m root:api_client.py:96 JSON    : {"username": "tz8001", "password": "aa123456", "channelCode": "test_code"}
+[32mINFO    [0m root:api_client.py:127 ========== 📥 API 响应 ==========
+[32mINFO    [0m root:api_client.py:128 STATUS  : 400
+[32mINFO    [0m root:api_client.py:129 BODY    : {"code":40091,"message":"验证码校验失败"}
+[32mINFO    [0m root:api_client.py:175 ========== 📌 API 断言 ==========
+[33mWARNING [0m root:conftest.py:150 ❌ 登录接口 HTTP 失败，跳过所有依赖登录的用例
+[33mWARNING [0m root:conftest.py:156 ❌ 登录失败（未返回 token），跳过所有依赖登录的用例
+[32mINFO    [0m root:api_client.py:44 🔐 Token 已更新
+[32mINFO    [0m root:conftest.py:159 ✅ 登录成功，token 已写入
+[32mINFO    [0m root:api_client.py:88 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[32mINFO    [0m root:api_client.py:89 ========== 🌐 API 请求 ==========
+[32mINFO    [0m root:api_client.py:90 METHOD  : POST
+[32mINFO    [0m root:api_client.py:91 URL     : https://23pg1.com/api/users/i/info?force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes
+[32mINFO    [0m root:api_client.py:92 HEADERS : {'Content-Type': 'application/json'}
+[32mINFO    [0m root:api_client.py:93 PARAMS  : {'force_no_encrypt': '567f9c9a-28cf-4096-b540-e428f40a1e74-jh82'}
+[32mINFO    [0m root:api_client.py:96 JSON    : {}
+[32mINFO    [0m root:api_client.py:127 ========== 📥 API 响应 ==========
+[32mINFO    [0m root:api_client.py:128 STATUS  : 401
+[32mINFO    [0m root:api_client.py:129 BODY    : {"code":42001,"message":"需登录才可访问"}
+[32mINFO    [0m root:api_client.py:175 ========== 📌 API 断言 ==========
