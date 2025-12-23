@@ -1,0 +1,23 @@
+{
+  "data": {
+    "bopay": [
+      {
+        "name": "bopay",
+        "short": "BOB",
+        "alias": null,
+        "account": "B66b7974750652c4641c87b7ccc39f50c",
+        "id": 8175,
+        "image_data": null,
+        "open_bank": "BoPayCard",
+        "sub_bank": null,
+        "open_bank_code": null,
+        "sub_bank_code": null,
+        "is_verify": true,
+        "default": false,
+        "province": null,
+        "city": null
+      }
+    ]
+  },
+  "code": "200"
+}
