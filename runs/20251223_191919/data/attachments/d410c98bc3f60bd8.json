@@ -1,0 +1,38 @@
+{
+  "code": 200,
+  "message": "success",
+  "data": {
+    "safe_links": [
+      {
+        "title": "微信1",
+        "url_type": "wx1",
+        "url": "https://pgyl-web5.iyes.dev?invite_code=s_nvq4_zijh_ga",
+        "id": 5,
+        "count": 0
+      },
+      {
+        "title": "QQ",
+        "url_type": "qq",
+        "url": "https://pgyl-web7.iyes.dev?invite_code=s_nvq4_zijh_ga",
+        "id": 3,
+        "count": 0
+      },
+      {
+        "title": "微信2",
+        "url_type": "wx2",
+        "url": "https://pgyl-web6.iyes.dev?invite_code=s_nvq4_zijh_ga",
+        "id": 2,
+        "count": 0
+      }
+    ],
+    "normal_links": [
+      {
+        "title": "一般链接",
+        "url_type": "long",
+        "url": "https://pgyl-web8.iyes.dev?invite_code=s_nvq4_zijh_ga",
+        "id": 4,
+        "count": 0
+      }
+    ]
+  }
+}
