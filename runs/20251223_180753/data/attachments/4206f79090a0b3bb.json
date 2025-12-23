@@ -1,0 +1,618 @@
+{
+  "data": {
+    "tags": [
+      {
+        "alias": "热门",
+        "tag": "hot"
+      },
+      {
+        "alias": "支付宝",
+        "tag": "alipay"
+      },
+      {
+        "alias": "钱包",
+        "tag": "wallet"
+      },
+      {
+        "alias": "微信",
+        "tag": "wxpay"
+      },
+      {
+        "alias": "银行卡",
+        "tag": "bank"
+      },
+      {
+        "alias": "其他",
+        "tag": "other"
+      }
+    ],
+    "channels": [
+      {
+        "id": 18,
+        "name": "gfpay",
+        "amount_min": "100",
+        "amount_max": "1000",
+        "amount_list": "100,200,300,400,500,600,700,800,900,1000",
+        "alias": "银行卡",
+        "pay_method": "redirect",
+        "pay_type": "kkpay",
+        "online": true,
+        "expires": 15,
+        "extra": {
+          "product": "bank"
+        },
+        "grants": "1.00",
+        "w": 0,
+        "suggest": false,
+        "gateway_name": "kkpay2",
+        "can_transfer": false,
+        "recharge_activities": [
+          {
+            "id": 187,
+            "name_code": "user_deposit_0",
+            "title": "首存加赠50%，本彩12倍",
+            "bonus_ratio": 0.5,
+            "bonus_max": 199.0,
+            "status": true,
+            "reward_rule": "app_active"
+          }
+        ],
+        "amount_u_min": "14.03",
+        "amount_u_max": "140.25",
+        "evaluation_list": "-3,-2,-1,0,1,10,11,12,13,100",
+        "tag": null,
+        "fee": null,
+        "tips": null,
+        "real_name": null,
+        "amount_type": "free"
+      },
+      {
+        "id": 55,
+        "name": "gfpay",
+        "amount_min": "100",
+        "amount_max": "10000",
+        "amount_list": "100,200,300,400,500",
+        "alias": "支付宝",
+        "pay_method": "redirect",
+        "pay_type": "kkpay",
+        "online": true,
+        "expires": 15,
+        "extra": {
+          "product": "alipay"
+        },
+        "grants": "0.00",
+        "w": 0,
+        "suggest": false,
+        "gateway_name": "kkpay2",
+        "can_transfer": false,
+        "recharge_activities": [
+          {
+            "id": 187,
+            "name_code": "user_deposit_0",
+            "title": "首存加赠50%，本彩12倍",
+            "bonus_ratio": 0.5,
+            "bonus_max": 199.0,
+            "status": true,
+            "reward_rule": "app_active"
+          }
+        ],
+        "amount_u_min": "14.03",
+        "amount_u_max": "1402.52",
+        "evaluation_list": "-3,-2,-1,0,1,10,11,12,13,100",
+        "tag": [
+          "alipay"
+        ],
+        "fee": 0,
+        "tips": "",
+        "real_name": true,
+        "amount_type": "fixed"
+      },
+      {
+        "id": 57,
+        "name": "usdt",
+        "amount_min": "1",
+        "amount_max": "100000",
+        "amount_list": "100,200,300,400,500,600,700,800,900,1000",
+        "alias": "usdt",
+        "pay_method": "qrcode",
+        "pay_type": "usdtpay",
+        "online": true,
+        "expires": 15,
+        "extra": {},
+        "grants": "0.00",
+        "w": 0,
+        "suggest": true,
+        "gateway_name": "v6pay",
+        "can_transfer": false,
+        "recharge_activities": [
+          {
+            "id": 187,
+            "name_code": "user_deposit_0",
+            "title": "首存加赠50%，本彩12倍",
+            "bonus_ratio": 0.5,
+            "bonus_max": 199.0,
+            "status": true,
+            "reward_rule": "app_active"
+          }
+        ],
+        "amount_u_min": "0.14",
+        "amount_u_max": "14025.25",
+        "evaluation_list": "100,13,12,11,10,1,0,-1,-2,-3",
+        "tag": [
+          "hot"
+        ],
+        "fee": 0,
+        "tips": "",
+        "real_name": false,
+        "amount_type": "free"
+      },
+      {
+        "id": 1,
+        "name": "bopay",
+        "amount_min": "1",
+        "amount_max": "20000",
+        "amount_list": "100,200,300,400,500,600,700,800,900,1000,2000",
+        "alias": "波币支付",
+        "pay_method": "qrcode",
+        "pay_type": "bopay",
+        "online": true,
+        "expires": 15,
+        "extra": {},
+        "grants": "0.00",
+        "w": 1,
+        "suggest": false,
+        "gateway_name": "bopay",
+        "can_transfer": true,
+        "recharge_activities": [
+          {
+            "id": 187,
+            "name_code": "user_deposit_0",
+            "title": "首存加赠50%，本彩12倍",
+            "bonus_ratio": 0.5,
+            "bonus_max": 199.0,
+            "status": true,
+            "reward_rule": "app_active"
+          }
+        ],
+        "amount_u_min": "0.14",
+        "amount_u_max": "2805.05",
+        "evaluation_list": "100,13,12,11,10,1,0,-1,-2,-3",
+        "tag": [
+          "wallet",
+          "hot"
+        ],
+        "fee": 3,
+        "tips": "波币、K-Plus支持微信、支付宝、银行卡购买及出售，交易更快",
+        "real_name": false,
+        "amount_type": "fixed"
+      },
+      {
+        "id": 8,
+        "name": "kkpay",
+        "amount_min": "100",
+        "amount_max": "500000",
+        "amount_list": "100,300,500,800,1000,10000,200000,500000",
+        "alias": "K-Plus支付",
+        "pay_method": "redirect",
+        "pay_type": "",
+        "online": true,
+        "expires": 15,
+        "extra": {},
+        "grants": "0.00",
+        "w": 100,
+        "suggest": false,
+        "gateway_name": "kkpay",
+        "can_transfer": true,
+        "recharge_activities": [
+          {
+            "id": 187,
+            "name_code": "user_deposit_0",
+            "title": "首存加赠50%，本彩12倍",
+            "bonus_ratio": 0.5,
+            "bonus_max": 199.0,
+            "status": true,
+            "reward_rule": "app_active"
+          }
+        ],
+        "amount_u_min": "14.03",
+        "amount_u_max": "70126.23",
+        "evaluation_list": "100,13,12,11,10,1,0,-1,-2,-3",
+        "tag": [
+          "wallet",
+          "hot"
+        ],
+        "fee": 3,
+        "tips": "kk钱包提示语",
+        "real_name": true,
+        "amount_type": "fixed"
+      },
+      {
+        "id": 56,
+        "name": "okpay",
+        "amount_min": "100",
+        "amount_max": "20000",
+        "amount_list": "100,200,300,500,800,1000,2000,5000,10000,20000,50000,100000",
+        "alias": "ok钱包",
+        "pay_method": "redirect",
+        "pay_type": "okpay",
+        "online": true,
+        "expires": 15,
+        "extra": {},
+        "grants": "0.00",
+        "w": 100,
+        "suggest": false,
+        "gateway_name": "okpay",
+        "can_transfer": false,
+        "recharge_activities": [
+          {
+            "id": 187,
+            "name_code": "user_deposit_0",
+            "title": "首存加赠50%，本彩12倍",
+            "bonus_ratio": 0.5,
+            "bonus_max": 199.0,
+            "status": true,
+            "reward_rule": "app_active"
+          }
+        ],
+        "amount_u_min": "14.03",
+        "amount_u_max": "2805.05",
+        "evaluation_list": "100,13,12,11,10,1,0,-1,-2,-3",
+        "tag": [
+          "wallet",
+          "hot"
+        ],
+        "fee": 1,
+        "tips": "",
+        "real_name": null,
+        "amount_type": "fixed"
+      },
+      {
+        "id": 3,
+        "name": "alipay",
+        "amount_min": "10",
+        "amount_max": "500",
+        "amount_list": "100,200,300,400,500",
+        "alias": "支付宝1",
+        "pay_method": "redirect",
+        "pay_type": "kkpay",
+        "online": true,
+        "expires": 15,
+        "extra": {},
+        "grants": "5.00",
+        "w": 255,
+        "suggest": true,
+        "gateway_name": "kkpay",
+        "can_transfer": true,
+        "recharge_activities": [
+          {
+            "id": 187,
+            "name_code": "user_deposit_0",
+            "title": "首存加赠50%，本彩12倍",
+            "bonus_ratio": 0.5,
+            "bonus_max": 199.0,
+            "status": true,
+            "reward_rule": "app_active"
+          }
+        ],
+        "amount_u_min": "1.40",
+        "amount_u_max": "70.13",
+        "evaluation_list": "100,13,12,11,10,1,0,-1,-2,-3",
+        "tag": [
+          "hot"
+        ],
+        "fee": 0,
+        "tips": "",
+        "real_name": false,
+        "amount_type": "fixed"
+      },
+      {
+        "id": 4,
+        "name": "wxpay",
+        "amount_min": "100",
+        "amount_max": "1000",
+        "amount_list": "100,200,300,400,500,600,700,800,900,1000",
+        "alias": "微信",
+        "pay_method": "redirect",
+        "pay_type": "kkpay",
+        "online": true,
+        "expires": 15,
+        "extra": {},
+        "grants": "0.00",
+        "w": 255,
+        "suggest": false,
+        "gateway_name": "kkpay1",
+        "can_transfer": false,
+        "recharge_activities": [
+          {
+            "id": 187,
+            "name_code": "user_deposit_0",
+            "title": "首存加赠50%，本彩12倍",
+            "bonus_ratio": 0.5,
+            "bonus_max": 199.0,
+            "status": true,
+            "reward_rule": "app_active"
+          }
+        ],
+        "amount_u_min": "14.03",
+        "amount_u_max": "140.25",
+        "evaluation_list": "",
+        "tag": null,
+        "fee": null,
+        "tips": null,
+        "real_name": null,
+        "amount_type": "fixed"
+      },
+      {
+        "id": 5,
+        "name": "qqpay",
+        "amount_min": "100",
+        "amount_max": "1000",
+        "amount_list": "100,200,300,400,500,600,700,800,900,1000",
+        "alias": "qq钱包",
+        "pay_method": "redirect",
+        "pay_type": "kkpay",
+        "online": true,
+        "expires": 15,
+        "extra": {},
+        "grants": "0.00",
+        "w": 255,
+        "suggest": false,
+        "gateway_name": "kkpay",
+        "can_transfer": false,
+        "recharge_activities": [
+          {
+            "id": 187,
+            "name_code": "user_deposit_0",
+            "title": "首存加赠50%，本彩12倍",
+            "bonus_ratio": 0.5,
+            "bonus_max": 199.0,
+            "status": true,
+            "reward_rule": "app_active"
+          }
+        ],
+        "amount_u_min": "14.03",
+        "amount_u_max": "140.25",
+        "evaluation_list": "100,13,12,11,10,1,0,-1,-2,-3",
+        "tag": [
+          "other"
+        ],
+        "fee": 0,
+        "tips": "",
+        "real_name": null,
+        "amount_type": "fixed"
+      },
+      {
+        "id": 6,
+        "name": "dceppay",
+        "amount_min": "100",
+        "amount_max": "1000",
+        "amount_list": "100,200,300,400,500,600,700,800,900,1000",
+        "alias": "数字人民币",
+        "pay_method": "redirect",
+        "pay_type": "kkpay",
+        "online": true,
+        "expires": 15,
+        "extra": {},
+        "grants": "0.00",
+        "w": 255,
+        "suggest": false,
+        "gateway_name": "kkpay1",
+        "can_transfer": false,
+        "recharge_activities": [
+          {
+            "id": 187,
+            "name_code": "user_deposit_0",
+            "title": "首存加赠50%，本彩12倍",
+            "bonus_ratio": 0.5,
+            "bonus_max": 199.0,
+            "status": true,
+            "reward_rule": "app_active"
+          }
+        ],
+        "amount_u_min": "14.03",
+        "amount_u_max": "140.25",
+        "evaluation_list": "100,13,12,11,10,1,0,-1,-2,-3",
+        "tag": [],
+        "fee": 0,
+        "tips": "",
+        "real_name": true,
+        "amount_type": "fixed"
+      },
+      {
+        "id": 7,
+        "name": "rgalipay",
+        "amount_min": "100",
+        "amount_max": "500",
+        "amount_list": "100,200,300,400,500",
+        "alias": "支付宝人工",
+        "pay_method": "redirect",
+        "pay_type": "kkpay",
+        "online": true,
+        "expires": 15,
+        "extra": {},
+        "grants": "0.00",
+        "w": 255,
+        "suggest": false,
+        "gateway_name": "kkpay2",
+        "can_transfer": false,
+        "recharge_activities": [
+          {
+            "id": 187,
+            "name_code": "user_deposit_0",
+            "title": "首存加赠50%，本彩12倍",
+            "bonus_ratio": 0.5,
+            "bonus_max": 199.0,
+            "status": true,
+            "reward_rule": "app_active"
+          }
+        ],
+        "amount_u_min": "14.03",
+        "amount_u_max": "70.13",
+        "evaluation_list": "",
+        "tag": null,
+        "fee": null,
+        "tips": null,
+        "real_name": null,
+        "amount_type": "fixed"
+      },
+      {
+        "id": 9,
+        "name": "gopay",
+        "amount_min": "100",
+        "amount_max": "9999",
+        "amount_list": "",
+        "alias": "GoPay支付",
+        "pay_method": "qrcode",
+        "pay_type": "gopay",
+        "online": true,
+        "expires": 15,
+        "extra": {},
+        "grants": "0.00",
+        "w": 255,
+        "suggest": false,
+        "gateway_name": "gopay",
+        "can_transfer": true,
+        "recharge_activities": [
+          {
+            "id": 187,
+            "name_code": "user_deposit_0",
+            "title": "首存加赠50%，本彩12倍",
+            "bonus_ratio": 0.5,
+            "bonus_max": 199.0,
+            "status": true,
+            "reward_rule": "app_active"
+          }
+        ],
+        "amount_u_min": "14.03",
+        "amount_u_max": "1402.38",
+        "evaluation_list": "-3,-2,-1,0,1,10,11,12,13,100",
+        "tag": [
+          "hot"
+        ],
+        "fee": 0,
+        "tips": "",
+        "real_name": null,
+        "amount_type": "free"
+      },
+      {
+        "id": 10,
+        "name": "topay",
+        "amount_min": "100",
+        "amount_max": "9999",
+        "amount_list": "",
+        "alias": "ToPay支付",
+        "pay_method": "redirect",
+        "pay_type": "gopay",
+        "online": true,
+        "expires": 15,
+        "extra": {},
+        "grants": "0.00",
+        "w": 255,
+        "suggest": false,
+        "gateway_name": "topay",
+        "can_transfer": true,
+        "recharge_activities": [
+          {
+            "id": 187,
+            "name_code": "user_deposit_0",
+            "title": "首存加赠50%，本彩12倍",
+            "bonus_ratio": 0.5,
+            "bonus_max": 199.0,
+            "status": true,
+            "reward_rule": "app_active"
+          }
+        ],
+        "amount_u_min": "14.03",
+        "amount_u_max": "1402.38",
+        "evaluation_list": "-3,-2,-1,0,1,10,11,12,13,100",
+        "tag": [
+          "hot"
+        ],
+        "fee": 0,
+        "tips": "",
+        "real_name": null,
+        "amount_type": "free"
+      },
+      {
+        "id": 11,
+        "name": "alipay",
+        "amount_min": "100",
+        "amount_max": "10000",
+        "amount_list": "100,200,300,400,500,1000,2000,3000,5000,10000",
+        "alias": "支付宝",
+        "pay_method": "redirect",
+        "pay_type": "kkpay",
+        "online": true,
+        "expires": 15,
+        "extra": {},
+        "grants": "0.00",
+        "w": 255,
+        "suggest": false,
+        "gateway_name": "kkpay1",
+        "can_transfer": true,
+        "recharge_activities": [
+          {
+            "id": 187,
+            "name_code": "user_deposit_0",
+            "title": "首存加赠50%，本彩12倍",
+            "bonus_ratio": 0.5,
+            "bonus_max": 199.0,
+            "status": true,
+            "reward_rule": "app_active"
+          }
+        ],
+        "amount_u_min": "14.03",
+        "amount_u_max": "1402.52",
+        "evaluation_list": "",
+        "tag": null,
+        "fee": null,
+        "tips": null,
+        "real_name": null,
+        "amount_type": "fixed"
+      },
+      {
+        "id": 49,
+        "name": "bank",
+        "amount_min": "100",
+        "amount_max": "2000",
+        "amount_list": "",
+        "alias": "手机银行100-2000元",
+        "pay_method": "redirect",
+        "pay_type": "bopayment",
+        "online": true,
+        "expires": 15,
+        "extra": {
+          "gateway_name": "NX日升支付- 555-手机银行h5"
+        },
+        "grants": "0.00",
+        "w": 255,
+        "suggest": false,
+        "gateway_name": "bopayment",
+        "can_transfer": false,
+        "recharge_activities": [
+          {
+            "id": 187,
+            "name_code": "user_deposit_0",
+            "title": "首存加赠50%，本彩12倍",
+            "bonus_ratio": 0.5,
+            "bonus_max": 199.0,
+            "status": true,
+            "reward_rule": "app_active"
+          }
+        ],
+        "amount_u_min": "14.03",
+        "amount_u_max": "280.50",
+        "evaluation_list": "0,1,10,11,12,13,100",
+        "tag": null,
+        "fee": null,
+        "tips": null,
+        "real_name": null,
+        "amount_type": "free"
+      }
+    ]
+  },
+  "code": "0",
+  "page": 1,
+  "per_page": 100,
+  "count": 15
+}
