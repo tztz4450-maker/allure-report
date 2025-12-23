@@ -1,0 +1,73 @@
+{
+  "data": [
+    {
+      "id": 318,
+      "created": "2025-12-15T02:23:11Z",
+      "user_id": 100205,
+      "succeeded": false,
+      "reversed": false,
+      "currency": 3,
+      "amount": "100.00",
+      "time_reversed": null,
+      "time_succeeded": null,
+      "amount_settled": "0",
+      "failure_code": null,
+      "failure_msg": null,
+      "status": "waiting_approved",
+      "description": null,
+      "sub_data": null,
+      "mtdata": null,
+      "sure": false,
+      "channel_name": "alipay",
+      "fee": "0",
+      "w_type": "balance",
+      "order_no": "1wobtfdo1yvk1s100205",
+      "account": {
+        "account": "16500120911",
+        "open_bank": "ZFBPayCard"
+      },
+      "extra": {},
+      "user_fee": "0",
+      "sub_amount": "0"
+    },
+    {
+      "id": 317,
+      "created": "2025-12-09T10:36:10Z",
+      "user_id": 100205,
+      "succeeded": true,
+      "reversed": false,
+      "currency": 3,
+      "amount": "100.00",
+      "time_reversed": null,
+      "time_succeeded": "2025-12-09T10:36:56Z",
+      "amount_settled": "100.00",
+      "failure_code": null,
+      "failure_msg": null,
+      "status": "settled",
+      "description": null,
+      "sub_data": null,
+      "mtdata": null,
+      "sure": false,
+      "channel_name": "usdtpay",
+      "fee": "0",
+      "w_type": "balance",
+      "order_no": "z8lef44to9iegt100205",
+      "account": {
+        "account": "THn2wPa9nwTH2jff8Bt4bZZKQYAzqHy8Eh",
+        "open_bank": "TRC20"
+      },
+      "extra": {
+        "rate": "7.13",
+        "alias": "cash",
+        "amount_quantity": "14.03"
+      },
+      "user_fee": "0",
+      "sub_amount": "0"
+    }
+  ],
+  "code": "0",
+  "page": 1,
+  "per_page": 3,
+  "count": 2,
+  "total_amount": "200.00"
+}

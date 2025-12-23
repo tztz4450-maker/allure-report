@@ -1,0 +1,49 @@
+{
+  "data": [
+    {
+      "id": 1142,
+      "created": "2025-12-09T10:31:15Z",
+      "order_time": "2025-12-09T10:31:15Z",
+      "user_id": 100205,
+      "bill_no": "usdtpay0msx1765276275006478",
+      "currency": 3,
+      "amount": "100.00",
+      "status": "settled",
+      "credential": {
+        "v": 2,
+        "url": "**** **** **** 2WAt",
+        "data": {
+          "address": "**** **** **** 2WAt",
+          "currency": "USDT_TRC20"
+        },
+        "meta": {
+          "transform": true
+        },
+        "type": "qrcode",
+        "trans_no": "**** **** **** 2WAt"
+      },
+      "channel_name": "usdt",
+      "expired_time": "2025-12-09T10:46:15Z",
+      "amount_paid": "100.00",
+      "amount_settled": "100.00",
+      "mtdata": {
+        "rate": "7.13",
+        "job_result": 1852,
+        "activitiess_id": 187,
+        "amount_quantity": "14.03",
+        "job_system_result": [
+          "('未达到活动资格', None, None)",
+          "('未达到活动资格', None, None)"
+        ]
+      },
+      "token": null,
+      "fee": "0",
+      "user_data": null
+    }
+  ],
+  "code": "0",
+  "page": 1,
+  "per_page": 20,
+  "count": 1,
+  "total_amount": "100.00"
+}

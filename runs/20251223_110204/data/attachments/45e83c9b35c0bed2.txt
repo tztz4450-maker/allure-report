@@ -1,0 +1,13 @@
+2025-12-23 10:56:24 [32mINFO[0m root: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-12-23 10:56:24 [32mINFO[0m root: ========== 🌐 API 请求 ==========
+2025-12-23 10:56:24 [32mINFO[0m root: METHOD  : POST
+2025-12-23 10:56:24 [32mINFO[0m root: URL     : https://pgyl-api.iyes.dev/api/cards/find_card?force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes
+2025-12-23 10:56:24 [32mINFO[0m root: HEADERS : {'Content-Type': 'application/json'}
+2025-12-23 10:56:24 [32mINFO[0m root: PARAMS  : {'force_no_encrypt': '567f9c9a-28cf-4096-b540-e428f40a1e74-jh82'}
+2025-12-23 10:56:24 [32mINFO[0m root: JSON    : {}
+2025-12-23 10:56:24 [32mINFO[0m root: ========== 📥 API 响应 ==========
+2025-12-23 10:56:24 [32mINFO[0m root: STATUS  : 200
+2025-12-23 10:56:24 [32mINFO[0m root: BODY    : {"data":{"kkpay":[{"name":"kkpay","short":"KKB","alias":null,"account":"n1GCkPwHT6Ux2KJ6boaaXyJNpY5ku8hKVwmn9vwGohibXdMPU","id":588,"image_data":null,"open_bank":"KKPayCard","sub_bank":null,"open_bank_code":null,"sub_bank_code":null,"is_verify":true,"default":false,"province":null,"city":null}],"alipay":[{"name":"alipay","short":"ZFB","alias":null,"account":"16500120911","id":587,"image_data":null,"open_bank":"ZFBPayCard","sub_bank":null,"open_bank_code":null,"sub_bank_code":null,"is_verify":true,"default":true,"province":null,"city":null}],"usdtpay":[{"name":"usdtpay","short":null,"alias":null,"account":"THn2wPa9nwTH2jff8Bt4bZZKQYAzqHy8Eh","id":585,"image_data":null,"open_bank":"TRC20","sub_bank":"火币钱包","open_bank_code":null,"sub_bank_code":null,"is_verify":true,"default":true,"province":null,"city":null}]},"code":"200"}
+2025-12-23 10:56:24 [32mINFO[0m root: ========== 📌 API 断言 ==========
+2025-12-23 10:56:24 [32mINFO[0m root: [HTTP] status=200
+2025-12-23 10:56:24 [32mINFO[0m root: [实际返回] code=200, [断言] code=[200]
