@@ -1,0 +1,41 @@
+2025-12-23 11:37:39 [32mINFO[0m root: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-12-23 11:37:39 [32mINFO[0m root: ========== 🌐 API 请求 ==========
+2025-12-23 11:37:39 [32mINFO[0m root: METHOD  : POST
+2025-12-23 11:37:39 [32mINFO[0m root: URL     : https://23pg1.com/auth/register?force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes
+2025-12-23 11:37:39 [32mINFO[0m root: HEADERS : {'Content-Type': 'application/json'}
+2025-12-23 11:37:39 [32mINFO[0m root: PARAMS  : {'force_no_encrypt': '567f9c9a-28cf-4096-b540-e428f40a1e74-jh82'}
+2025-12-23 11:37:39 [32mINFO[0m root: JSON    : {"username": "tz8001", "password": "aa1234567", "channelCode": "test_code", "params": {"force_no_encrypt": "567f9c9a-28cf-4096-b540-e428f40a1e74-jh82"}}
+2025-12-23 11:37:40 [32mINFO[0m root: ========== 📥 API 响应 ==========
+2025-12-23 11:37:40 [32mINFO[0m root: STATUS  : 400
+2025-12-23 11:37:40 [32mINFO[0m root: BODY    : {"code":40002,"message":"用户名或密码不正确"}
+2025-12-23 11:37:40 [32mINFO[0m root: ========== 📌 API 断言 ==========
+2025-12-23 11:37:40 [33mWARNING[0m root: ⚠ 登录失败，尝试 fallback token | code=40002 msg=用户名或密码不正确
+2025-12-23 11:37:40 [32mINFO[0m root: 🧩 使用 fallback token 成功
+2025-12-23 11:37:40 [32mINFO[0m root: 🔐 Token 已更新
+2025-12-23 11:37:40 [32mINFO[0m root: ✅ token 已写入 client
+2025-12-23 11:37:40 [32mINFO[0m root: ✅ token 已写入 client | token=Bearer .eJxNkFFqAyEQhu8yzy44m26Xeo489UWMThKpq6LuhrT0Ai30An0t9GSh16gbaij4Mt_8w__hC1gDAjkfx4HBnCl5NREIKM8bzhEYJFJO_sGfj_fL1_fl7bNypXWYfQHhZ-cY2Cx31hvrD42cotTB722aqFbslcvEIOb_sKS5Ml0ryjpCz_uhQ-zwYYso-CD4WJsO5A0lED2DnU3laNT5muV3HfbdBrd4Lziv73HVWlRRNQzrZZVabLyVX4XTuRoYapZKF7tQU6FJWddW8Rj8LTfJqHI-hWQaKeGJvFwoZRt8_cPXX0ofbcQ.aUkd4w.naJ4UdUcYXKWIMGuNKV4e3PMh-g
+2025-12-23 11:37:40 [32mINFO[0m root: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-12-23 11:37:40 [32mINFO[0m root: ========== 🌐 API 请求 ==========
+2025-12-23 11:37:40 [32mINFO[0m root: METHOD  : POST
+2025-12-23 11:37:40 [32mINFO[0m root: URL     : https://23pg1.com/api/users/i/info?force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes
+2025-12-23 11:37:40 [32mINFO[0m root: HEADERS : {'Content-Type': 'application/json'}
+2025-12-23 11:37:40 [32mINFO[0m root: PARAMS  : {'force_no_encrypt': '567f9c9a-28cf-4096-b540-e428f40a1e74-jh82'}
+2025-12-23 11:37:40 [32mINFO[0m root: JSON    : {}
+2025-12-23 11:37:41 [32mINFO[0m root: ========== 📥 API 响应 ==========
+2025-12-23 11:37:41 [32mINFO[0m root: STATUS  : 200
+2025-12-23 11:37:41 [32mINFO[0m root: BODY    : {"data":{"id":100775,"username":"tz3001","real_name":"王大力","account":{"balance_cny":"0","balance":"0"},"is_binding":false,"wp_confirmed":false,"ps_confirmed":true,"created":"2025-11-19T11:05:07Z","gender":2,"birthday":"2004-12-31T16:00:00Z","avatar":"7","is_vip":false,"country_code":null,"active":true,"email":null,"phone":null,"week_profit":{},"points":0.0,"svip":0,"transfer_is_hide_platform":false,"transfer_is_custom":false,"last_login_at":"2025-12-22T10:31:00Z","last_login_ip":"31.223.184.88"},"code":"200"}
+2025-12-23 11:37:41 [32mINFO[0m root: ========== 📌 API 断言 ==========
+2025-12-23 11:37:41 [32mINFO[0m root: 🎯 已写入 USER_ID = 100775
+2025-12-23 11:37:41 [32mINFO[0m root: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-12-23 11:37:41 [32mINFO[0m root: ========== 🌐 API 请求 ==========
+2025-12-23 11:37:41 [32mINFO[0m root: METHOD  : POST
+2025-12-23 11:37:41 [32mINFO[0m root: URL     : https://23pg1.com/api/users/i/info?force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes
+2025-12-23 11:37:41 [32mINFO[0m root: HEADERS : {'Content-Type': 'application/json'}
+2025-12-23 11:37:41 [32mINFO[0m root: PARAMS  : {'force_no_encrypt': '567f9c9a-28cf-4096-b540-e428f40a1e74-jh82'}
+2025-12-23 11:37:41 [32mINFO[0m root: JSON    : {}
+2025-12-23 11:37:42 [32mINFO[0m root: ========== 📥 API 响应 ==========
+2025-12-23 11:37:42 [32mINFO[0m root: STATUS  : 200
+2025-12-23 11:37:42 [32mINFO[0m root: BODY    : {"data":{"id":100775,"username":"tz3001","real_name":"王大力","account":{"balance_cny":"0","balance":"0"},"is_binding":false,"wp_confirmed":false,"ps_confirmed":true,"created":"2025-11-19T11:05:07Z","gender":2,"birthday":"2004-12-31T16:00:00Z","avatar":"7","is_vip":false,"country_code":null,"active":true,"email":null,"phone":null,"week_profit":{},"points":0.0,"svip":0,"transfer_is_hide_platform":false,"transfer_is_custom":false,"last_login_at":"2025-12-22T10:31:00Z","last_login_ip":"31.223.184.88"},"code":"200"}
+2025-12-23 11:37:42 [32mINFO[0m root: ========== 📌 API 断言 ==========
+2025-12-23 11:37:42 [32mINFO[0m root: [HTTP] status=200
+2025-12-23 11:37:42 [32mINFO[0m root: [实际返回] code=200, [断言] code=[200]

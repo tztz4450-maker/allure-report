@@ -1,0 +1,1 @@
+{'data': {'bopay': [{'name': 'bopay', 'short': 'BOB', 'alias': None, 'account': 'B66b7974750652c4641c87b7ccc39f50c', 'id': 8175, 'image_data': None, 'open_bank': 'BoPayCard', 'sub_bank': None, 'open_bank_code': None, 'sub_bank_code': None, 'is_verify': True, 'default': False, 'province': None, 'city': None}]}, 'code': '200'}
