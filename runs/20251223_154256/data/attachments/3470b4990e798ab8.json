@@ -1,0 +1,10 @@
+{
+  "data": {
+    "url": "https://lott.v6a7hash.com/longDragon?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTc2NjQ3NTY5NCwiZXhwIjoxNzY2NTYyMDk0fQ.eyJpZCI6NTIwNzksInVzZXJuYW1lIjoicGd5bF9wZ3lsODRmNTMyMzAzMjMifQ.NG-J74tARGu-ebEv2cCgvDGYsNkSvVuHpEenI8DUFWVwcG927yxyfFpBr9BFoXS2RpqeR1EtPww0GbZPmuxTDQ&back_url=extra.dm",
+    "platform": "V6Lottery",
+    "game": "longDragon",
+    "method": "get",
+    "redirect": true
+  },
+  "code": 200
+}
