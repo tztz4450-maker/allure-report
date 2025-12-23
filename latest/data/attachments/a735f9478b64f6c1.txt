@@ -1,0 +1,14 @@
+2025-12-23 17:40:45 [32mINFO[0m root: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-12-23 17:40:45 [32mINFO[0m root: ========== 🌐 API 请求 ==========
+2025-12-23 17:40:45 [32mINFO[0m root: METHOD  : POST
+2025-12-23 17:40:45 [32mINFO[0m root: URL     : https://pgyl-api.iyes.dev/payment/channels/list?force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes
+2025-12-23 17:40:45 [32mINFO[0m root: HEADERS : {'Content-Type': 'application/json'}
+2025-12-23 17:40:45 [32mINFO[0m root: PARAMS  : {'force_no_encrypt': '567f9c9a-28cf-4096-b540-e428f40a1e74-jh82'}
+2025-12-23 17:40:45 [32mINFO[0m root: JSON    : {}
+2025-12-23 17:40:46 [32mINFO[0m root: ========== 📥 API 响应 ==========
+2025-12-23 17:40:46 [32mINFO[0m root: STATUS  : 200
+2025-12-23 17:40:46 [32mINFO[0m root: BODY    : {"data":{"tags":[{"alias":"热门","tag":"hot"},{"alias":"支付宝","tag":"alipay"},{"alias":"钱包","tag":"wallet"},{"alias":"微信","tag":"wxpay"},{"alias":"银行卡","tag":"bank"},{"alias":"其他","tag":"other"}],"channels":[{"id":18,"name":"gfpay","amount_min":"100","amount_max":"1000","amount_list":"100,200,300,400,500,600,700,800,900,1000","alias":"银行卡","pay_method":"redirect","pay_type":"kkpay","online":true,"expires":15,"extra":{"product":"bank"},"grants":"1.00","w":0,"suggest":false,"gateway_name":"kkpay2","can_transfer":false,"recharge_activities":[{"id":187,"name_code":"user_deposit_0","title":"首存加赠50%，本彩12倍","bonus_ratio":0.5,"bonus_max":199.0,"status":true,"reward_rule":"app_active"}],"amount_u_min":"14.03","amount_u_max":"140.25","evaluation_list":"-3,-2,-1,0,1,10,11,12,13,100","tag":null,"fee":null,"tips":null,"real_name":null,"amount_type":"free"},{"id":55,"name":"gfpay","amount_min":"100","amount_max":"10000","amount_list":"100,200,300,400,500","alias":"支付宝","pay_method":"redirect","pay_type":"kkpay","online":true,"expires":15,"extra":{"product":"alipay"},"grants":"0.00","w":0,"suggest":false,"gateway_name":"kkpay2","can_transfer":false,"recharge_activities":[{"id":187,"name_code":"user_deposit_0","title":"首存加赠50%，本彩12倍","bonus_ratio":0.5,"bonus_max":199.0,"status":true,"reward_rule":"app_active"}],"amount_u_min":"14.03","amount_u_max":"1402.52","evaluation_list":"-3,-2,-1,0,1,10,11,12,13,100","tag":["alipay"],"fee":0,"tips":"","real_name":true,"amount_type":"fixed"},{"id":57,"name
+2025-12-23 17:40:46 [32mINFO[0m root: ========== 📌 API 断言 ==========
+2025-12-23 17:40:46 [32mINFO[0m root: [HTTP] status=200
+2025-12-23 17:40:46 [32mINFO[0m root: [业务断言] 实际 code=0 | 允许=[0]
+2025-12-23 17:40:46 [32mINFO[0m root: [HTTP断言] 实际=200 | 允许=[200]
