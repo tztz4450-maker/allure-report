@@ -1,0 +1,13 @@
+[32mINFO    [0m root:api_client.py:88 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[32mINFO    [0m root:api_client.py:89 ========== 🌐 API 请求 ==========
+[32mINFO    [0m root:api_client.py:90 METHOD  : POST
+[32mINFO    [0m root:api_client.py:91 URL     : https://23pg1.com/api/universal_agent/week_job?force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes
+[32mINFO    [0m root:api_client.py:92 HEADERS : {'Content-Type': 'application/json'}
+[32mINFO    [0m root:api_client.py:93 PARAMS  : {'force_no_encrypt': '567f9c9a-28cf-4096-b540-e428f40a1e74-jh82'}
+[32mINFO    [0m root:api_client.py:96 JSON    : {"action": "cur"}
+[32mINFO    [0m root:api_client.py:127 ========== 📥 API 响应 ==========
+[32mINFO    [0m root:api_client.py:128 STATUS  : 200
+[32mINFO    [0m root:api_client.py:129 BODY    : {"code":200,"message":"success","data":{"action":"cur","pending_amount":0,"user_agent_fee_double":{"fee_paid":0,"rewards":[{"bonus":5,"limit_min":30,"status":"working"},{"bonus":18,"limit_min":200,"status":"working"},{"bonus":88,"limit_min":1000,"status":"working"},{"bonus":888,"limit_min":10000,"status":"working"}],"limit_min":"0","done_limit_min":[],"start_at":"2025-12-21T16:00:00+00:00","end_at":"2025-12-28T16:00:00+00:00","name_code":"user_agent_fee_double","action":"cur"},"user_agent_recharge":{"total_deposit":0,"rewards":[{"bonus":8,"limit_min":1000,"status":"working"},{"bonus":18,"limit_min":5000,"status":"working"},{"bonus":25,"limit_min":10000,"status":"working"},{"bonus":388,"limit_min":100000,"status":"working"},{"bonus":888,"limit_min":300000,"status":"working"},{"bonus":2888,"limit_min":1000000,"status":"working"}],"limit_min":"0","done_limit_min":[],"start_at":"2025-12-21T16:00:00+00:00","end_at":"2025-12-28T16:00:00+00:00","name_code":"user_agent_recharge","action":"cur"},"user_agent_friend":{"total_new_users":0,"rewards":[{"bonus":36,"limit_min":1,"status":"working"},{"bonus":66,"limit_min":3,"status":"working"},{"bonus":128,"limit_min":5,"status":"working"},{"bonus":308,"limit_min":10,"status":"working"},{"bonus":888,"limit_min":30,"status":"working"},{"bonus":2828,"limit_min":100,"status":"working"}],"limit_min":0,"done_limit_min":[],"start_at":"2025-12-21T16:00:00+00:00","end_at":"2025-12-28T16:00:00+00:00","name_code":"user_agent_friend","action":"cur"},"u
+[32mINFO    [0m root:api_client.py:175 ========== 📌 API 断言 ==========
+[32mINFO    [0m root:assert_util.py:60 [HTTP] status=200
+[32mINFO    [0m root:assert_util.py:88 [实际返回] code=200, [断言] code=[200]

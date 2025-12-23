@@ -1,0 +1,11 @@
+[32mINFO    [0m root:api_client.py:88 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[32mINFO    [0m root:api_client.py:89 ========== 🌐 API 请求 ==========
+[32mINFO    [0m root:api_client.py:90 METHOD  : GET
+[32mINFO    [0m root:api_client.py:91 URL     : https://23pg1.com/api/games/bookmark_game_list?page=1&per_page=2000&force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes
+[32mINFO    [0m root:api_client.py:92 HEADERS : {'Content-Type': 'application/json'}
+[32mINFO    [0m root:api_client.py:93 PARAMS  : {'page': 1, 'per_page': 2000, 'force_no_encrypt': '567f9c9a-28cf-4096-b540-e428f40a1e74-jh82'}
+[32mINFO    [0m root:api_client.py:127 ========== 📥 API 响应 ==========
+[32mINFO    [0m root:api_client.py:128 STATUS  : 200
+[32mINFO    [0m root:api_client.py:129 BODY    : {"data":[],"code":"200"}
+[32mINFO    [0m root:api_client.py:175 ========== 📌 API 断言 ==========
+[32mINFO    [0m root:assert_util.py:60 [HTTP] status=200

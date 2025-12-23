@@ -1,0 +1,14 @@
+[32mINFO    [0m root:conftest.py:120 🚀 启动 raw_client | env=prod base_url=https://23pg1.com
+[32mINFO    [0m root:api_client.py:88 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[32mINFO    [0m root:api_client.py:89 ========== 🌐 API 请求 ==========
+[32mINFO    [0m root:api_client.py:90 METHOD  : POST
+[32mINFO    [0m root:api_client.py:91 URL     : https://23pg1.com/auth/register?isDev=yes
+[32mINFO    [0m root:api_client.py:92 HEADERS : {'Content-Type': 'application/json'}
+[32mINFO    [0m root:api_client.py:93 PARAMS  : None
+[32mINFO    [0m root:api_client.py:96 JSON    : {"username": "tz8001", "password": "aa123456", "channelCode": "test_code"}
+[32mINFO    [0m root:api_client.py:127 ========== 📥 API 响应 ==========
+[32mINFO    [0m root:api_client.py:128 STATUS  : 200
+[32mINFO    [0m root:api_client.py:129 BODY    : {"x-data":"gAAAAABpSfmm5aZx3lWjfosyMfK3h9MCtHRppvNFcPgLE1G3XJ4l0TVU7Q_BliM4SuVO6ZwcT-3-rN7XguP4HdCNZBQ2Y8oiGGyiXOYurmokmbitiTwVtoePoJ59-DYnmyelNRx1f01zwjBjInLiKbzM0F-Oar7C7UJsh6JUbURzXEXSHB6-aqkoj6JD7cEIipqsxF0Gy0gj8z370GIC34-FWIGbpAqQwX4q0qnuITPMMvjGd6eP61RanOA0Y_QKrtS6Uzg9k2dwQxFwYjy7SwN-MiLt5AnfCoUNP97AwQB86X-G7YYMUilgPdyh8Rz_MBw2cp1pgpx4fM49mT4GlwcbaXyrKuRoBHsTM8lN0m-O5llPnZPpOwRAWs9RTFX4D9AjQlb-pGB3MY2yzryoU4a3mjTSLChmsxu9yvnNfWdgD0A7jM7M_FDpsos1-TdRiycT-G-rrwlHXKB8TF-O7TOf5t-AvwK1dSacXgwd7O8iYmS2NGSxj6GUskST94DdbWoQuvcmeGNz_vBErPaOf7KeYW0Bf2bnqg4b7Epx1ADI4poAdfE8Z3XISr3fhXiWqdrkCcZrqDhFsrFhY3028fh-bU127tKQTsRYAO47p1uV_BqzwQl4AIo="}
+[32mINFO    [0m root:api_client.py:175 ========== 📌 API 断言 ==========
+[32mINFO    [0m root:assert_util.py:60 [HTTP] status=200
+[32mINFO    [0m root:assert_util.py:88 [实际返回] code=None, [断言] code=[200, 40091]

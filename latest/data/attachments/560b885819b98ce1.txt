@@ -1,0 +1,13 @@
+[32mINFO    [0m root:api_client.py:88 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[32mINFO    [0m root:api_client.py:89 ========== 🌐 API 请求 ==========
+[32mINFO    [0m root:api_client.py:90 METHOD  : POST
+[32mINFO    [0m root:api_client.py:91 URL     : https://23pg1.com/api/jobs/my/all_daily_job_activity?force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes
+[32mINFO    [0m root:api_client.py:92 HEADERS : {'Content-Type': 'application/json'}
+[32mINFO    [0m root:api_client.py:93 PARAMS  : {'force_no_encrypt': '567f9c9a-28cf-4096-b540-e428f40a1e74-jh82'}
+[32mINFO    [0m root:api_client.py:96 JSON    : {}
+[32mINFO    [0m root:api_client.py:127 ========== 📥 API 响应 ==========
+[32mINFO    [0m root:api_client.py:128 STATUS  : 400
+[32mINFO    [0m root:api_client.py:129 BODY    : {"code":40000,"message":"您暂无可领取任务"}
+[32mINFO    [0m root:api_client.py:175 ========== 📌 API 断言 ==========
+[32mINFO    [0m root:assert_util.py:60 [HTTP] status=400
+[32mINFO    [0m root:assert_util.py:88 [实际返回] code=40000, [断言] code=[200, 40000]

@@ -1,0 +1,12 @@
+[32mINFO    [0m root:api_client.py:88 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[32mINFO    [0m root:api_client.py:89 ========== 🌐 API 请求 ==========
+[32mINFO    [0m root:api_client.py:90 METHOD  : GET
+[32mINFO    [0m root:api_client.py:91 URL     : https://23pg1.com/api/universal_agent/friends/data_statistics?filters=%7B%22created_dr%22%3A%222025-12-22+00%3A00%3A00+~+2025-12-24+00%3A00%3A00%22%7D&page=1&limit=20&force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes
+[32mINFO    [0m root:api_client.py:92 HEADERS : {'Content-Type': 'application/json'}
+[32mINFO    [0m root:api_client.py:93 PARAMS  : {'filters': '{"created_dr":"2025-12-22 00:00:00 ~ 2025-12-24 00:00:00"}', 'page': 1, 'limit': 20, 'force_no_encrypt': '567f9c9a-28cf-4096-b540-e428f40a1e74-jh82'}
+[32mINFO    [0m root:api_client.py:127 ========== 📥 API 响应 ==========
+[32mINFO    [0m root:api_client.py:128 STATUS  : 200
+[32mINFO    [0m root:api_client.py:129 BODY    : {"code":200,"message":"success","data":{"new_users":[{"date":"2025-12-22","new_users_count":0}],"betting":[{"date":"2025-12-22","total_bet_amount":"0.00"}],"recharge_stats":{"first_recharge_count":0,"total_recharge_count":0,"total_recharge_amount":{"usdt":"0.00","cny":"0.00"},"usdt_recharge_users":0,"cny_recharge_users":0,"usdt_recharge_amount":"0.00","cny_recharge_amount":"0.00"}}}
+[32mINFO    [0m root:api_client.py:175 ========== 📌 API 断言 ==========
+[32mINFO    [0m root:assert_util.py:60 [HTTP] status=200
+[32mINFO    [0m root:assert_util.py:88 [实际返回] code=200, [断言] code=[200]
