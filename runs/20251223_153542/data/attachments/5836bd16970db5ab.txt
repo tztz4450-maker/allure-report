@@ -1,0 +1,35 @@
+2025-12-23 15:32:30 [32mINFO[0m root: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-12-23 15:32:30 [32mINFO[0m root: ========== 🌐 API 请求 ==========
+2025-12-23 15:32:30 [32mINFO[0m root: METHOD  : POST
+2025-12-23 15:32:30 [32mINFO[0m root: URL     : https://23pg1.com/game/launch/lottery/luzhu_dragons?force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes
+2025-12-23 15:32:30 [32mINFO[0m root: HEADERS : {'Content-Type': 'application/json'}
+2025-12-23 15:32:30 [32mINFO[0m root: PARAMS  : {'force_no_encrypt': '567f9c9a-28cf-4096-b540-e428f40a1e74-jh82'}
+2025-12-23 15:32:30 [32mINFO[0m root: JSON    : {}
+2025-12-23 15:32:33 [1m[31mERROR[0m root: [API ERROR] POST https://23pg1.com/game/launch/lottery/luzhu_dragons?force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes | SSLError
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1007)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python\Python310\lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+  File "D:\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "D:\Python\Python310\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='23pg1.com', port=443): Max retries exceeded with url: /game/launch/lottery/luzhu_dragons?force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1007)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PycharmProjects\23pg-api-test\utils\api_client.py", line 237, in request
+    resp = requests.request(
+  File "D:\Python\Python310\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Python\Python310\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Python\Python310\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Python\Python310\lib\site-packages\requests\adapters.py", line 675, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='23pg1.com', port=443): Max retries exceeded with url: /game/launch/lottery/luzhu_dragons?force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1007)')))
