@@ -1,0 +1,30 @@
+{
+  "code": 200,
+  "message": "success",
+  "data": {
+    "new_users": [
+      {
+        "date": "2025-12-22",
+        "new_users_count": 0
+      }
+    ],
+    "betting": [
+      {
+        "date": "2025-12-22",
+        "total_bet_amount": "0.00"
+      }
+    ],
+    "recharge_stats": {
+      "first_recharge_count": 0,
+      "total_recharge_count": 0,
+      "total_recharge_amount": {
+        "usdt": "0.00",
+        "cny": "0.00"
+      },
+      "usdt_recharge_users": 0,
+      "cny_recharge_users": 0,
+      "usdt_recharge_amount": "0.00",
+      "cny_recharge_amount": "0.00"
+    }
+  }
+}

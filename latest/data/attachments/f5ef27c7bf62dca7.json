@@ -1,0 +1,10 @@
+{
+  "data": {
+    "url": "https://hash-lott.iyes.dev/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTc2NjQ4NDc4MywiZXhwIjoxNzY2NTcxMTgzfQ.eyJpZCI6NzAxLCJ1c2VybmFtZSI6InhwZ19wZ3lscHJlNzNmMjMxMDAyMzkifQ.kI1hLPZgyL2dQH_r6uiD085Hse7LcAazIIGVQzbMWsGGDaFcXYHJSpAU6t3gT97aQEGG8kOlpfwG5HfGmF6QGg",
+    "platform": "V6Lottery",
+    "game": "0",
+    "method": "get",
+    "redirect": true
+  },
+  "code": 200
+}
