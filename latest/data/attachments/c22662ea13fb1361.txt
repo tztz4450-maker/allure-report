@@ -1,0 +1,14 @@
+2025-12-24 10:25:25 INFO root: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-12-24 10:25:25 INFO root: ========== 🌐 API 请求 ==========
+2025-12-24 10:25:25 INFO root: METHOD  : POST
+2025-12-24 10:25:25 INFO root: URL     : https://23pg1.com/game/games/transfer/in_all?force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes
+2025-12-24 10:25:25 INFO root: HEADERS : {'Content-Type': 'application/json'}
+2025-12-24 10:25:25 INFO root: PARAMS  : {'force_no_encrypt': '567f9c9a-28cf-4096-b540-e428f40a1e74-jh82'}
+2025-12-24 10:25:25 INFO root: JSON    : {"currency": "3"}
+2025-12-24 10:25:26 INFO root: ========== 📥 API 响应 ==========
+2025-12-24 10:25:26 INFO root: STATUS  : 200
+2025-12-24 10:25:26 INFO root: BODY    : {"code":200,"message":"归集成功"}
+2025-12-24 10:25:26 INFO root: ========== 📌 API 断言 ==========
+2025-12-24 10:25:26 INFO root: [HTTP] status=200
+2025-12-24 10:25:26 INFO root: [业务断言] 实际 code=200 | 允许=[200]
+2025-12-24 10:25:26 INFO root: [HTTP断言] 实际=200 | 允许=[200]

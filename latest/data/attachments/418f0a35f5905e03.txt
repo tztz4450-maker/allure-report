@@ -1,0 +1,13 @@
+2025-12-24 10:25:17 INFO root: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-12-24 10:25:17 INFO root: ========== 🌐 API 请求 ==========
+2025-12-24 10:25:17 INFO root: METHOD  : GET
+2025-12-24 10:25:17 INFO root: URL     : https://23pg1.com/api/cache/get_game_lists?filters=%7B%27type%27%3A+%27esport%27%7D&force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes
+2025-12-24 10:25:17 INFO root: HEADERS : {'Content-Type': 'application/json'}
+2025-12-24 10:25:17 INFO root: PARAMS  : {'filters': {'type': 'esport'}, 'force_no_encrypt': '567f9c9a-28cf-4096-b540-e428f40a1e74-jh82'}
+2025-12-24 10:25:19 INFO root: ========== 📥 API 响应 ==========
+2025-12-24 10:25:19 INFO root: STATUS  : 200
+2025-12-24 10:25:19 INFO root: BODY    : {"data":[{"img":"/upload/game/DBSport/熊猫电竞2_jpg.image","type":"esport","maintain_end":null,"winning_line":"30-69","created":"2025-10-18T13:30:23","name_cn":"熊猫电竞","h5_img":"/upload/game/DBSport/熊猫电竞2_jpg.image","is_gaming":true,"is_screen":false,"hall_img":"/upload/game/DBSport/熊猫电竞_jpg.image","deleted_at":null,"code":"104","mt_data":null,"is_iframe":true,"hall_h5_img":"/upload/game/DBSport/熊猫电竞_jpg.image","deleted":false,"h5_code":"104","hot":true,"latest":false,"icon_type":"","id":2629,"name":"DB电竞","sort":0,"maintain":false,"rate_return":0.0,"tag":["lobby"],"alias":null,"enabled":true,"recommend":false,"hot_img":"/upload/game/DBSport/熊猫电竞_jpg.image","hot_h5_img":"/upload/game/DBSport/熊猫电竞_jpg.image","platform":"DBSport","h5_enabled":true,"jackpot":false,"theme_category":"娱乐","hot_sort":0,"active":true,"maintain_start":null,"feature":"自动游戏","updated":"2025-12-22T08:16:40"},{"img":"/upload/game/DBSport/乒乓球_jpg.image","type":"sport","maintain_end":null,"winning_line":"15-29","created":"2025-10-07T04:32:15","name_cn":"熊猫篮球","h5_img":"/upload/game/DBSport/乒乓球_jpg.image","is_gaming":false,"is_screen":false,"hall_img":"","deleted_at":null,"code":"8","mt_data":null,"is_iframe":true,"hall_h5_img":"","deleted":false,"h5_code":"8","hot":true,"latest":true,"icon_type":"","id":2625,"name":"熊猫篮球","sort":0,"maintain":false,"rate_return":0.0,"tag":["lobby"],"alias":null,"enabled":true,"recommend":false,"hot_img":"","hot_h5_img":"","platform":"DBSport","h5_enabled":true,"jackpot":false,"th
+2025-12-24 10:25:19 INFO root: ========== 📌 API 断言 ==========
+2025-12-24 10:25:19 INFO root: [HTTP] status=200
+2025-12-24 10:25:19 INFO root: [业务断言] 实际 code=0 | 允许=[0]
+2025-12-24 10:25:19 INFO root: [HTTP断言] 实际=200 | 允许=[200]
