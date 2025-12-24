@@ -1,0 +1,12 @@
+2025-12-24 16:43:14 INFO root: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-12-24 16:43:14 INFO root: ========== 🌐 API 请求 ==========
+2025-12-24 16:43:14 INFO root: METHOD  : GET
+2025-12-24 16:43:14 INFO root: URL     : https://23pg1.com/api/cache/every_time_draw?force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes
+2025-12-24 16:43:14 INFO root: HEADERS : {'Content-Type': 'application/json'}
+2025-12-24 16:43:14 INFO root: PARAMS  : {'force_no_encrypt': '567f9c9a-28cf-4096-b540-e428f40a1e74-jh82'}
+2025-12-24 16:43:14 INFO root: ========== 📥 API 响应 ==========
+2025-12-24 16:43:14 INFO root: STATUS  : 200
+2025-12-24 16:43:14 INFO root: BODY    : {"timestamp":1766563200,"data":[{"game_id":375,"name":"幸运龙","platform":"JDB","code":"8001","img":"/upload/game/JDB/xingyunlong_jpg.image","h5_img":"/upload/game/JDB/xingyunlong_jpg.image","is_screen":false,"is_iframe":true,"odds":96.16,"type":"slot","bet_amount":1949.0,"payout_amount":187486,"username":"d0***14","timestamp":1766549442},{"game_id":1215,"name":"招财锦鲤","platform":"PA","code":"WH35","img":"/upload/game/PA/zhaocaijinli_jpg.image","h5_img":"/upload/game/PA/zhaocaijinli_jpg.image","is_screen":false,"is_iframe":false,"odds":95.08,"type":"slot","bet_amount":1507.0,"payout_amount":143316,"username":"p7***L8","timestamp":1766490226},{"game_id":678,"name":"妙笔生财","platform":"CQ9","code":"AR01","img":"/upload/game/CQ9/miaobishengcai_jpg.image","h5_img":"/upload/game/CQ9/miaobishengcai_jpg.image","is_screen":false,"is_iframe":false,"odds":94.24,"type":"slot","bet_amount":1409.0,"payout_amount":132860,"username":"ZO***31","timestamp":1766485450},{"game_id":58,"name":"冰雪大冲关","platform":"PG","code":"53","img":"/upload/game/PG/bingxuedachongguan_jpg.image","h5_img":"/upload/game/PG/bingxuedachongguan_jpg.image","is_screen":null,"is_iframe":true,"odds":96.33,"type":"slot","bet_amount":1183.0,"payout_amount":114043,"username":"sD***RI","timestamp":1766553563},{"game_id":406,"name":"富贵金蟾","platform":"BBIN","code":"5213","img":"/upload/game/BBIN/fuguijinchan_jpg.image","h5_img":"/upload/game/BBIN/fuguijinchan_jpg.image","is_screen":false,"is_iframe":false,"odds":24,"type":"slot","be
+2025-12-24 16:43:14 INFO root: ========== 📌 API 断言 ==========
+2025-12-24 16:43:14 INFO root: [HTTP] status=200
+2025-12-24 16:43:14 INFO root: [HTTP断言] 实际=200 | 允许=[200]
