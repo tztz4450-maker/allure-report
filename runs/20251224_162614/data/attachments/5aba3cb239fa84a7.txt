@@ -1,0 +1,14 @@
+2025-12-24 16:25:10 [32mINFO[0m root: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-12-24 16:25:10 [32mINFO[0m root: ========== 🌐 API 请求 ==========
+2025-12-24 16:25:10 [32mINFO[0m root: METHOD  : POST
+2025-12-24 16:25:10 [32mINFO[0m root: URL     : https://23pg1.com/api/users/i/user_svip?force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes
+2025-12-24 16:25:10 [32mINFO[0m root: HEADERS : {'Content-Type': 'application/json'}
+2025-12-24 16:25:10 [32mINFO[0m root: PARAMS  : {'force_no_encrypt': '567f9c9a-28cf-4096-b540-e428f40a1e74-jh82'}
+2025-12-24 16:25:10 [32mINFO[0m root: JSON    : {}
+2025-12-24 16:25:10 [32mINFO[0m root: ========== 📥 API 响应 ==========
+2025-12-24 16:25:10 [32mINFO[0m root: STATUS  : 200
+2025-12-24 16:25:10 [32mINFO[0m root: BODY    : {"code":200,"message":"success","data":{"points":0.0,"svip":0,"next_level":1,"next_points":600.0,"keep_level_points":0.0,"user_wages_week":{"status":"working","job_id":0,"bonus_amount":0,"next_day":5},"user_wages_month":{"status":"working","job_id":0,"bonus_amount":0,"next_day":8},"user_wages_up":{"status":"working","job_id":0,"bonus_amount":0,"next_day":0}}}
+2025-12-24 16:25:10 [32mINFO[0m root: ========== 📌 API 断言 ==========
+2025-12-24 16:25:10 [32mINFO[0m root: [HTTP] status=200
+2025-12-24 16:25:10 [32mINFO[0m root: [业务断言] 实际 code=200 | 允许=[200]
+2025-12-24 16:25:10 [32mINFO[0m root: [HTTP断言] 实际=200 | 允许=[200]

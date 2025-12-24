@@ -1,0 +1,14 @@
+2025-12-24 16:25:43 [32mINFO[0m root: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-12-24 16:25:43 [32mINFO[0m root: ========== 🌐 API 请求 ==========
+2025-12-24 16:25:43 [32mINFO[0m root: METHOD  : POST
+2025-12-24 16:25:43 [32mINFO[0m root: URL     : https://23pg1.com/game/games/l?force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes
+2025-12-24 16:25:43 [32mINFO[0m root: HEADERS : {'Content-Type': 'application/json'}
+2025-12-24 16:25:43 [32mINFO[0m root: PARAMS  : {'force_no_encrypt': '567f9c9a-28cf-4096-b540-e428f40a1e74-jh82'}
+2025-12-24 16:25:43 [32mINFO[0m root: JSON    : {"platform": "V6Lottery", "code": "0", "currency": 3, "device": "h5", "extra": {"session_token": "100957", "game_type": "lottery", "dm": "https://23pg1.com/#/?isDev=yes&cate_tab=lottery"}}
+2025-12-24 16:25:45 [32mINFO[0m root: ========== 📥 API 响应 ==========
+2025-12-24 16:25:45 [32mINFO[0m root: STATUS  : 200
+2025-12-24 16:25:45 [32mINFO[0m root: BODY    : {"data":{"url":"https://lott.v6a7hash.com/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTc2NjU2NDc0NSwiZXhwIjoxNzY2NjUxMTQ1fQ.eyJpZCI6MjY0LCJ1c2VybmFtZSI6InBneWxfcGd5bDM1YTIzMTAwOTU3In0.v5tt0YqDknBuzgEiNfohSTcJzz24ZDm0WV_VDUQAPWZySze-Zd341-4ysqCcFuu-abXDyCUO3K7CruQfdj3ZbA","platform":"V6Lottery","game":"0","method":"get","redirect":true},"code":200}
+2025-12-24 16:25:45 [32mINFO[0m root: ========== 📌 API 断言 ==========
+2025-12-24 16:25:46 [32mINFO[0m root: [EXTRA_URL][OK] 彩票大厅/长龙链接访问成功 | status=200 | url=https://lott.v6a7hash.com/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTc2NjU2NDc0NSwiZXhwIjoxNzY2NjUxMTQ1fQ.eyJpZCI6MjY0LCJ1c2VybmFtZSI6InBneWxfcGd5bDM1YTIzMTAwOTU3In0.v5tt0YqDknBuzgEiNfohSTcJzz24ZDm0WV_VDUQAPWZySze-Zd341-4ysqCcFuu-abXDyCUO3K7CruQfdj3ZbA
+2025-12-24 16:25:46 [32mINFO[0m root: [HTTP] status=200
+2025-12-24 16:25:46 [32mINFO[0m root: [业务断言] 实际 code=200 | 允许=[2000]
