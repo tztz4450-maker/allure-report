@@ -1,0 +1,10 @@
+{
+  "data": {
+    "url": "https://lott.v6a7hash.com/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTc2NjU3NzYzNCwiZXhwIjoxNzY2NjY0MDM0fQ.eyJpZCI6MjY0LCJ1c2VybmFtZSI6InBneWxfcGd5bDM1YTIzMTAwOTU3In0.S7i0ecrB96uecyXyJ1b3OxW1ffZqFlJTH8JOl8p60OneO5PLBIOgt6iOF20JUgFlrhDfKintExw1vv3thIYGFw",
+    "platform": "V6Lottery",
+    "game": "0",
+    "method": "get",
+    "redirect": true
+  },
+  "code": 200
+}
