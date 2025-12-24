@@ -1,0 +1,55 @@
+2025-12-24 19:28:56 [32mINFO[0m root: 🚀 启动 raw_client | env=prod base_url=https://23pg1.com
+2025-12-24 19:28:56 [32mINFO[0m root: 🔐 初始化 auth_client（仅执行一次）
+2025-12-24 19:28:56 [32mINFO[0m root: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-12-24 19:28:56 [32mINFO[0m root: ========== 🌐 API 请求 ==========
+2025-12-24 19:28:56 [32mINFO[0m root: METHOD  : POST
+2025-12-24 19:28:56 [32mINFO[0m root: URL     : https://23pg1.com/auth/register?force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes
+2025-12-24 19:28:56 [32mINFO[0m root: HEADERS : {'Content-Type': 'application/json'}
+2025-12-24 19:28:56 [32mINFO[0m root: PARAMS  : {'force_no_encrypt': '567f9c9a-28cf-4096-b540-e428f40a1e74-jh82'}
+2025-12-24 19:28:56 [32mINFO[0m root: JSON    : {"username": "tz9001", "password": "aa1234567", "channelCode": "test_code", "params": {"force_no_encrypt": "567f9c9a-28cf-4096-b540-e428f40a1e74-jh82"}}
+2025-12-24 19:28:56 [32mINFO[0m root: ========== 📥 API 响应 ==========
+2025-12-24 19:28:56 [32mINFO[0m root: STATUS  : 400
+2025-12-24 19:28:56 [32mINFO[0m root: BODY    : {"code":40091,"message":"验证码校验失败"}
+2025-12-24 19:28:56 [32mINFO[0m root: ========== 📌 API 断言 ==========
+2025-12-24 19:28:56 [33mWARNING[0m root: ⚠ 登录/注册失败，尝试 fallback 登录: {'code': 40091, 'message': '验证码校验失败'}
+2025-12-24 19:28:56 [32mINFO[0m root: 🔐 Token 已更新
+2025-12-24 19:28:56 [32mINFO[0m root: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-12-24 19:28:56 [32mINFO[0m root: ========== 🌐 API 请求 ==========
+2025-12-24 19:28:56 [32mINFO[0m root: METHOD  : POST
+2025-12-24 19:28:56 [32mINFO[0m root: URL     : https://23pg1.com/api/users/i/info?isDev=yes
+2025-12-24 19:28:56 [32mINFO[0m root: HEADERS : {'Content-Type': 'application/json'}
+2025-12-24 19:28:56 [32mINFO[0m root: PARAMS  : None
+2025-12-24 19:28:56 [32mINFO[0m root: JSON    : {}
+2025-12-24 19:28:57 [32mINFO[0m root: ========== 📥 API 响应 ==========
+2025-12-24 19:28:57 [32mINFO[0m root: STATUS  : 200
+2025-12-24 19:28:57 [32mINFO[0m root: BODY    : {"x-data":"gAAAAABpS853pvDZ5X08Isv8Rq9BeDW1A5t4AgVh81wk7NIsp_T5kSwOenfTQNqFVd3AliNf09Vj_5VOl5tuzXQyWM5eKhsEj6-23yFXhWmo2YVC1PT7zs8uSSU6NfbIK9PxKX1VwLlJTHlVmo1MQXFSX_q8qURumIvUUT1JrAvONWO_r1_Fm38WyWmex2ZoTfs3w75FOddNNfRgSF85QJO1Wxrne7WtZBiM6vMoMyyIIfkpRa0hdPp1Hq3LYiGomOQ7d7fsVjNoQKvS65sKHS0KiM2ZYe4EddJN_mr1oE5lSVaJW5KwEk8-nOXQROn9t1baR-3AL_a3VopqE4oJDR09fRxTFEHgOrPRs3nfA9JhDcPYFBFj28ye1WiQPyz3hlNc7-5jJrLUjzDYoBZiN-sKBnUl38i-w03j7htOH3yVDUVvwdOTxc7Us-0_X9GbB57JfcetRRB5gfRURLBygzIndLT_Cx8C2W9wrkKPFJmkT_oaj2SM0n3Gl5s1Lq2-eVnl3nnn7SKY-YYWNdrSEWrMCAjiI9Kb1d42iNDzH8B8c-YR3C3b8J5bQrQFP3W6c1TrYDjtnTmIs-a8ChRVCsdrdczXk2cBaUj4j7suon_-DMWCATksjzZGsleGY5k-c4ZlMWrH202L6SFO9MNgAvw-h7yBH67LQu-z_LFsaMOfJUNhOuvY5dB1gBR_sxo5xwrYLFrpNtciBVvFYFFtrirgocIoXAxBI4V8Xde4H--D0QEGapkM5L1tS21jcpJgG4dKJbGFW0UK"}
+2025-12-24 19:28:57 [32mINFO[0m root: ========== 📌 API 断言 ==========
+2025-12-24 19:28:57 [32mINFO[0m root: 🧩 fallback token 登录成功
+2025-12-24 19:28:57 [32mINFO[0m root: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-12-24 19:28:57 [32mINFO[0m root: ========== 🌐 API 请求 ==========
+2025-12-24 19:28:57 [32mINFO[0m root: METHOD  : POST
+2025-12-24 19:28:57 [32mINFO[0m root: URL     : https://23pg1.com/api/users/i/info?force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes
+2025-12-24 19:28:57 [32mINFO[0m root: HEADERS : {'Content-Type': 'application/json'}
+2025-12-24 19:28:57 [32mINFO[0m root: PARAMS  : {'force_no_encrypt': '567f9c9a-28cf-4096-b540-e428f40a1e74-jh82'}
+2025-12-24 19:28:57 [32mINFO[0m root: JSON    : {}
+2025-12-24 19:28:58 [32mINFO[0m root: ========== 📥 API 响应 ==========
+2025-12-24 19:28:58 [32mINFO[0m root: STATUS  : 200
+2025-12-24 19:28:58 [32mINFO[0m root: BODY    : {"data":{"id":100957,"username":"tz4001","real_name":"哈哈","account":{"balance_cny":"0","balance":"0"},"is_binding":false,"wp_confirmed":false,"ps_confirmed":true,"created":"2025-11-21T06:53:05Z","gender":1,"birthday":"2004-12-31T16:00:00Z","avatar":"3","is_vip":false,"country_code":null,"active":true,"email":null,"phone":null,"week_profit":{},"points":0.0,"svip":0,"transfer_is_hide_platform":false,"transfer_is_custom":true,"last_login_at":"2025-12-23T06:42:25Z","last_login_ip":"31.223.184.88"},"code":"200"}
+2025-12-24 19:28:58 [32mINFO[0m root: ========== 📌 API 断言 ==========
+2025-12-24 19:28:58 [32mINFO[0m root: 🎯 USER_ID = 100957
+2025-12-24 19:28:58 [32mINFO[0m root: ✅ auth_client 初始化完成
+2025-12-24 19:28:58 [32mINFO[0m root: 🕶️ 启动 anon_client（不携带 token）
+2025-12-24 19:28:58 [32mINFO[0m root: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-12-24 19:28:58 [32mINFO[0m root: ========== 🌐 API 请求 ==========
+2025-12-24 19:28:58 [32mINFO[0m root: METHOD  : POST
+2025-12-24 19:28:58 [32mINFO[0m root: URL     : https://23pg1.com/auth/register?force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes
+2025-12-24 19:28:58 [32mINFO[0m root: HEADERS : {'Content-Type': 'application/json'}
+2025-12-24 19:28:58 [32mINFO[0m root: PARAMS  : {'force_no_encrypt': '567f9c9a-28cf-4096-b540-e428f40a1e74-jh82'}
+2025-12-24 19:28:58 [32mINFO[0m root: JSON    : {"username": "tz9001", "password": "aa1234567", "channelCode": "test_code", "params": {"force_no_encrypt": "567f9c9a-28cf-4096-b540-e428f40a1e74-jh82"}}
+2025-12-24 19:28:58 [32mINFO[0m root: ========== 📥 API 响应 ==========
+2025-12-24 19:28:58 [32mINFO[0m root: STATUS  : 400
+2025-12-24 19:28:58 [32mINFO[0m root: BODY    : {"code":40091,"message":"验证码校验失败"}
+2025-12-24 19:28:58 [32mINFO[0m root: ========== 📌 API 断言 ==========
+2025-12-24 19:28:58 [32mINFO[0m root: [HTTP] status=400
+2025-12-24 19:28:58 [32mINFO[0m root: [业务断言] 实际 code=40091 | 允许=[200, 40091, 40002]
+2025-12-24 19:28:58 [32mINFO[0m root: [HTTP断言] 实际=400 | 允许=[200, 400]
