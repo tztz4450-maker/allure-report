@@ -1,0 +1,12 @@
+2025-12-24 10:49:30 INFO root: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-12-24 10:49:30 INFO root: ========== 🌐 API 请求 ==========
+2025-12-24 10:49:30 INFO root: METHOD  : GET
+2025-12-24 10:49:30 INFO root: URL     : https://pgyl-api.iyes.dev/api/cache/every_time_draw?force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes
+2025-12-24 10:49:30 INFO root: HEADERS : {'Content-Type': 'application/json'}
+2025-12-24 10:49:30 INFO root: PARAMS  : {'force_no_encrypt': '567f9c9a-28cf-4096-b540-e428f40a1e74-jh82'}
+2025-12-24 10:49:31 INFO root: ========== 📥 API 响应 ==========
+2025-12-24 10:49:31 INFO root: STATUS  : 200
+2025-12-24 10:49:31 INFO root: BODY    : {"timestamp":1766541600,"data":[{"game_id":361,"name":"江山美人","platform":"JDB","code":"8044","img":"/upload/game/JDB/jiangshanmeiren_jpg.image","h5_img":"/upload/game/JDB/jiangshanmeiren_jpg.image","is_screen":false,"is_iframe":false,"odds":96.37,"type":"slot","bet_amount":1762.0,"payout_amount":169820,"username":"Zg***8k","timestamp":1766507500},{"game_id":626,"name":"三国英雄-曹操","platform":"CQ9","code":"GB15","img":"/upload/game/CQ9/sanguoyingxiong_jpg.image","h5_img":"/upload/game/CQ9/sanguoyingxiong_jpg.image","is_screen":false,"is_iframe":false,"odds":96.2,"type":"slot","bet_amount":1228.0,"payout_amount":118160,"username":"Bs***Zu","timestamp":1766496829},{"game_id":720,"name":"疯狂软糖","platform":"CQ9","code":"AS18","img":"/upload/game/CQ9/fengkuangruantang_jpg.image","h5_img":"/upload/game/CQ9/fengkuangruantang_jpg.image","is_screen":false,"is_iframe":false,"odds":94.1,"type":"slot","bet_amount":1003.0,"payout_amount":94449,"username":"ld***91","timestamp":1766500249},{"game_id":103,"name":"拳霸","platform":"PG","code":"64","img":"/upload/game/PG/quanba_jpg.image","h5_img":"/upload/game/PG/quanba_jpg.image","is_screen":null,"is_iframe":null,"odds":86,"type":"slot","bet_amount":930,"payout_amount":79980,"username":"U3***ch","timestamp":1766534402},{"game_id":672,"name":"2018世界杯","platform":"CQ9","code":"92","img":"/upload/game/CQ9/2018shijie_jpg.image","h5_img":"/upload/game/CQ9/2018shijie_jpg.image","is_screen":false,"is_iframe":false,"odds":43,"type":"slot","bet_amount":1860,
+2025-12-24 10:49:31 INFO root: ========== 📌 API 断言 ==========
+2025-12-24 10:49:31 INFO root: [HTTP] status=200
+2025-12-24 10:49:31 INFO root: [HTTP断言] 实际=200 | 允许=[200]
