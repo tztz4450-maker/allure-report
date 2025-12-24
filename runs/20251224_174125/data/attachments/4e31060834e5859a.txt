@@ -1,0 +1,13 @@
+2025-12-24 17:40:27 INFO root: 🔐 初始化 auth_client（仅执行一次）
+2025-12-24 17:40:27 INFO root: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-12-24 17:40:27 INFO root: ========== 🌐 API 请求 ==========
+2025-12-24 17:40:27 INFO root: METHOD  : POST
+2025-12-24 17:40:27 INFO root: URL     : https://23pg1.com/auth/register?force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes
+2025-12-24 17:40:27 INFO root: HEADERS : {'Content-Type': 'application/json'}
+2025-12-24 17:40:27 INFO root: PARAMS  : {'force_no_encrypt': '567f9c9a-28cf-4096-b540-e428f40a1e74-jh82'}
+2025-12-24 17:40:27 INFO root: JSON    : {"username": "tz9001", "password": "aa1234567", "channelCode": "test_code", "params": {"force_no_encrypt": "567f9c9a-28cf-4096-b540-e428f40a1e74-jh82"}}
+2025-12-24 17:40:27 INFO root: ========== 📥 API 响应 ==========
+2025-12-24 17:40:27 INFO root: STATUS  : 400
+2025-12-24 17:40:27 INFO root: BODY    : {"code":40091,"message":"验证码校验失败"}
+2025-12-24 17:40:27 INFO root: ========== 📌 API 断言 ==========
+2025-12-24 17:40:27 WARNING root: ⚠ 注册失败，尝试 fallback 登录: {'code': 40091, 'message': '验证码校验失败'}
