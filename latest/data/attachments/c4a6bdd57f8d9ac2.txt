@@ -1,0 +1,64 @@
+2025-12-24 14:20:51 [32mINFO[0m root: 🚀 启动 raw_client | env=pre base_url=https://pgyl-api.iyes.dev
+2025-12-24 14:20:51 [32mINFO[0m root: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-12-24 14:20:51 [32mINFO[0m root: ========== 🌐 API 请求 ==========
+2025-12-24 14:20:51 [32mINFO[0m root: METHOD  : POST
+2025-12-24 14:20:51 [32mINFO[0m root: URL     : https://pgyl-api.iyes.dev/auth/register?force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes
+2025-12-24 14:20:51 [32mINFO[0m root: HEADERS : {'Content-Type': 'application/json'}
+2025-12-24 14:20:51 [32mINFO[0m root: PARAMS  : {'force_no_encrypt': '567f9c9a-28cf-4096-b540-e428f40a1e74-jh82'}
+2025-12-24 14:20:51 [32mINFO[0m root: JSON    : {"username": "tz9001", "password": "aa1234567", "channelCode": "test_code", "params": {"force_no_encrypt": "567f9c9a-28cf-4096-b540-e428f40a1e74-jh82"}}
+2025-12-24 14:20:51 [32mINFO[0m root: ========== 📥 API 响应 ==========
+2025-12-24 14:20:51 [32mINFO[0m root: STATUS  : 400
+2025-12-24 14:20:51 [32mINFO[0m root: BODY    : {"code":40091,"message":"验证码校验失败"}
+2025-12-24 14:20:51 [32mINFO[0m root: ========== 📌 API 断言 ==========
+2025-12-24 14:20:51 [32mINFO[0m root: 🔐 Token 已更新
+2025-12-24 14:20:51 [32mINFO[0m root: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-12-24 14:20:51 [32mINFO[0m root: ========== 🌐 API 请求 ==========
+2025-12-24 14:20:51 [32mINFO[0m root: METHOD  : POST
+2025-12-24 14:20:51 [32mINFO[0m root: URL     : https://pgyl-api.iyes.dev/api/users/i/info?isDev=yes
+2025-12-24 14:20:51 [32mINFO[0m root: HEADERS : {'Content-Type': 'application/json'}
+2025-12-24 14:20:51 [32mINFO[0m root: PARAMS  : None
+2025-12-24 14:20:51 [32mINFO[0m root: JSON    : {}
+2025-12-24 14:20:52 [32mINFO[0m root: ========== 📥 API 响应 ==========
+2025-12-24 14:20:52 [32mINFO[0m root: STATUS  : 401
+2025-12-24 14:20:52 [32mINFO[0m root: BODY    : {"code":40010,"message":"无效的令牌"}
+2025-12-24 14:20:52 [32mINFO[0m root: ========== 📌 API 断言 ==========
+2025-12-24 14:20:52 [32mINFO[0m root: 🔐 Token 已更新
+2025-12-24 14:20:52 [32mINFO[0m root: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-12-24 14:20:52 [32mINFO[0m root: ========== 🌐 API 请求 ==========
+2025-12-24 14:20:52 [32mINFO[0m root: METHOD  : POST
+2025-12-24 14:20:52 [32mINFO[0m root: URL     : https://pgyl-api.iyes.dev/api/users/i/info?isDev=yes
+2025-12-24 14:20:52 [32mINFO[0m root: HEADERS : {'Content-Type': 'application/json'}
+2025-12-24 14:20:52 [32mINFO[0m root: PARAMS  : None
+2025-12-24 14:20:52 [32mINFO[0m root: JSON    : {}
+2025-12-24 14:20:52 [32mINFO[0m root: ========== 📥 API 响应 ==========
+2025-12-24 14:20:52 [32mINFO[0m root: STATUS  : 200
+2025-12-24 14:20:52 [32mINFO[0m root: BODY    : {"x-data":"gAAAAABpS4ZEKztZ4u74u-23kWm5nyUw8df36F-hBEnlEuxZKz0z0w5mUvHG5jcJF_l1NAqKcfii2tR7qkHnOiSJ6juvyRp5ItJdGZAdxBwgHpj-Ouum2QVEni6V9WZ1EmkAmCRmLIwphDtMqv_qYg1vIEtP5gQOd6o_HToSdToPCLYB_W9xgNosR2XQfwG9106_KDTVozjij25xmI_z1b1OABDtTOQNs1rmXI18LujG1WvhvBRvYUScOqGPdOC87MIQECJeq4oLghKtYK5mA_jiT_Tc3pFvDrEDIorG7GF3n5vfhnHcP0kzGTjL1qBodomAIDIDqFso6vK9Ju4C8gU0wYG-7cZQGd7qesLDhiFzBsvYP768atLWCuo0k8xKfv9ycEny3Ts4_W3uOXHpJAJhDlB3AFM7gEq0mzMhamMp9tFMrdj_2x_Ii0u3JgKY61gIjk4jL9rShtWDWNMyvqLpwEITP5q3n6MWV6NofQ2XLbF8Bu3IzbKIGsfW5KjL6DiSgfmQ4cYNAOc2s1WvWWTeF0FXaYQZO3-7G8PM-d0Lv4sRJKpu1Dw2ogXNDkZzjrHErBl3bGjuRmIDNunkgAJ0hn-j1pp2_ANEn_HLNNqTWaukDmtfzyyD1rXDjcWmdFs7n69tZpQFKBRPh-ayeFVTa5LSkJOxeK4gFC5szdJqvmfHpuXSHFL5e_esJzRZ32y6vLpV_oxJG-cBvstJFwVV929D2wn_vj74hkTAc2nW15b6ZJSTsAj_PaxO29z5vOnqQ7FcMCYg"}
+2025-12-24 14:20:52 [32mINFO[0m root: ========== 📌 API 断言 ==========
+2025-12-24 14:20:52 [32mINFO[0m root: 🧩 已通过 fallback token 登录
+2025-12-24 14:20:52 [32mINFO[0m root: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-12-24 14:20:52 [32mINFO[0m root: ========== 🌐 API 请求 ==========
+2025-12-24 14:20:52 [32mINFO[0m root: METHOD  : POST
+2025-12-24 14:20:52 [32mINFO[0m root: URL     : https://pgyl-api.iyes.dev/api/users/i/info?force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes
+2025-12-24 14:20:52 [32mINFO[0m root: HEADERS : {'Content-Type': 'application/json'}
+2025-12-24 14:20:52 [32mINFO[0m root: PARAMS  : {'force_no_encrypt': '567f9c9a-28cf-4096-b540-e428f40a1e74-jh82'}
+2025-12-24 14:20:52 [32mINFO[0m root: JSON    : {}
+2025-12-24 14:20:53 [32mINFO[0m root: ========== 📥 API 响应 ==========
+2025-12-24 14:20:53 [32mINFO[0m root: STATUS  : 200
+2025-12-24 14:20:53 [32mINFO[0m root: BODY    : {"data":{"id":100239,"username":"tz122301","real_name":"王哈","account":{"balance_cny":"0","balance":"0"},"is_binding":false,"wp_confirmed":false,"ps_confirmed":true,"created":"2025-12-23T06:39:03Z","gender":1,"birthday":"2004-12-31T16:00:00Z","avatar":null,"is_vip":false,"country_code":null,"active":true,"email":null,"phone":null,"week_profit":{},"points":0.0,"svip":0,"transfer_is_hide_platform":true,"transfer_is_custom":true,"last_login_at":"2025-12-23T06:39:03Z","last_login_ip":"31.223.184.221"},"code":"200"}
+2025-12-24 14:20:53 [32mINFO[0m root: ========== 📌 API 断言 ==========
+2025-12-24 14:20:53 [32mINFO[0m root: 🎯 已写入 USER_ID = 100239
+2025-12-24 14:20:53 [32mINFO[0m root: 🕶️ 启动 anon_client（不携带 token）
+2025-12-24 14:20:53 [32mINFO[0m root: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-12-24 14:20:53 [32mINFO[0m root: ========== 🌐 API 请求 ==========
+2025-12-24 14:20:53 [32mINFO[0m root: METHOD  : POST
+2025-12-24 14:20:53 [32mINFO[0m root: URL     : https://pgyl-api.iyes.dev/auth/register?force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes
+2025-12-24 14:20:53 [32mINFO[0m root: HEADERS : {'Content-Type': 'application/json'}
+2025-12-24 14:20:53 [32mINFO[0m root: PARAMS  : {'force_no_encrypt': '567f9c9a-28cf-4096-b540-e428f40a1e74-jh82'}
+2025-12-24 14:20:53 [32mINFO[0m root: JSON    : {"username": "tz9001", "password": "aa1234567", "channelCode": "test_code", "params": {"force_no_encrypt": "567f9c9a-28cf-4096-b540-e428f40a1e74-jh82"}}
+2025-12-24 14:20:53 [32mINFO[0m root: ========== 📥 API 响应 ==========
+2025-12-24 14:20:53 [32mINFO[0m root: STATUS  : 400
+2025-12-24 14:20:53 [32mINFO[0m root: BODY    : {"code":40091,"message":"验证码校验失败"}
+2025-12-24 14:20:53 [32mINFO[0m root: ========== 📌 API 断言 ==========
+2025-12-24 14:20:53 [32mINFO[0m root: [HTTP] status=400
+2025-12-24 14:20:53 [32mINFO[0m root: [业务断言] 实际 code=40091 | 允许=[200, 40091, 40002]
+2025-12-24 14:20:53 [32mINFO[0m root: [HTTP断言] 实际=400 | 允许=[200, 400]
