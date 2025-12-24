@@ -1,0 +1,13 @@
+2025-12-24 16:37:07 INFO root: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-12-24 16:37:07 INFO root: ========== 🌐 API 请求 ==========
+2025-12-24 16:37:07 INFO root: METHOD  : POST
+2025-12-24 16:37:07 INFO root: URL     : https://23pg1.com/api/jobs/my/active?force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes
+2025-12-24 16:37:07 INFO root: HEADERS : {'Content-Type': 'application/json'}
+2025-12-24 16:37:07 INFO root: PARAMS  : {'force_no_encrypt': '567f9c9a-28cf-4096-b540-e428f40a1e74-jh82'}
+2025-12-24 16:37:07 INFO root: JSON    : {}
+2025-12-24 16:37:08 INFO root: ========== 📥 API 响应 ==========
+2025-12-24 16:37:08 INFO root: STATUS  : 401
+2025-12-24 16:37:08 INFO root: BODY    : {"code":40010,"message":"您的账号正在另一处登录, 请重新登录"}
+2025-12-24 16:37:08 INFO root: ========== 📌 API 断言 ==========
+2025-12-24 16:37:08 INFO root: [HTTP] status=401
+2025-12-24 16:37:08 INFO root: [业务断言] 实际 code=40010 | 允许=[200]
