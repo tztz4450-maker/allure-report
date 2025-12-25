@@ -1,0 +1,14 @@
+2025-12-25 15:30:42 [32mINFO[0m root: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-12-25 15:30:42 [32mINFO[0m root: ========== 🌐 API 请求 ==========
+2025-12-25 15:30:42 [32mINFO[0m root: METHOD  : POST
+2025-12-25 15:30:42 [32mINFO[0m root: URL     : https://23pg1.com/game/launch/lottery/luzhu_dragons?force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes
+2025-12-25 15:30:42 [32mINFO[0m root: HEADERS : {'Content-Type': 'application/json'}
+2025-12-25 15:30:42 [32mINFO[0m root: PARAMS  : {'force_no_encrypt': '567f9c9a-28cf-4096-b540-e428f40a1e74-jh82'}
+2025-12-25 15:30:42 [32mINFO[0m root: JSON    : {}
+2025-12-25 15:30:43 [32mINFO[0m root: ========== 📥 API 响应 ==========
+2025-12-25 15:30:43 [32mINFO[0m root: STATUS  : 200
+2025-12-25 15:30:43 [32mINFO[0m root: BODY    : {"code":200,"data":{"total_games":3,"games_with_dragons":3,"dragons":[{"game_name":"波场一分彩","combo":"百十","dragon_type":"龙虎斗","current_streak":5,"current_value":"龙","length_group":"连5","next_period":"111202512250931","next_period_time":"2025-12-25T07:31:03+00:00","dragon_history":[{"numbers":[6,9,8,8,6],"periods":111202512250930,"value":"和","num1":8,"num2":8,"block_time":"2025-12-25T07:30:03","rule_name":"百十"}],"total_history_count":5,"dragon_values":["和","和","龙","龙","龙","虎","虎","龙","龙","龙","龙","虎","和","虎","和","虎","虎","龙","龙","虎","龙","虎","龙","龙","虎","龙","龙","龙","虎","虎","虎","虎","龙","龙","龙","虎","龙","龙","龙","龙","虎","虎","龙","虎","虎"],"table_key":"ffc_103"},{"game_name":"币安一分彩","combo":"十个","dragon_type":"龙虎斗","current_streak":7,"current_value":"龙","length_group":"连7","next_period":"10111202512250931","next_period_time":"2025-12-25T07:31:03+00:00","dragon_history":[{"numbers":[2,0,8,8,8],"periods":10111202512250930,"value":"和","num1":8,"num2":8,"block_time":"2025-12-25T07:30:03","rule_name":"十个"}],"total_history_count":7,"dragon_values":["和","和","龙","龙","龙","龙","龙","虎","龙","虎","龙","龙","虎","龙","龙","龙","虎","龙","和","龙","龙","虎","虎","龙","虎","虎","虎","虎","龙","虎","虎","虎","龙","龙","虎","虎","和","虎","虎","和","和","龙","虎","和","龙"],"table_key":"ffc_bsc"},{"game_name":"以太极速赛车","position":3,"dragon_type":"大小","current_streak":3,"current_value":"小","length_group":"连3","next_period":"11111202512250931","next_period_time":"2025-12-25T07:31:11+00:00","dragon_history":[{"numbers":[4,6,2,8,9,7,3,10,5,1],"per
+2025-12-25 15:30:43 [32mINFO[0m root: ========== 📌 API 断言 ==========
+2025-12-25 15:30:43 [32mINFO[0m root: [HTTP] status=200
+2025-12-25 15:30:43 [32mINFO[0m root: [业务断言] 实际 code=200 | 允许=[200]
+2025-12-25 15:30:43 [32mINFO[0m root: [HTTP断言] 实际=200 | 允许=[200]

@@ -1,0 +1,14 @@
+2025-12-25 15:30:20 [32mINFO[0m root: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-12-25 15:30:20 [32mINFO[0m root: ========== 🌐 API 请求 ==========
+2025-12-25 15:30:20 [32mINFO[0m root: METHOD  : POST
+2025-12-25 15:30:20 [32mINFO[0m root: URL     : https://23pg1.com/api/wash_the/today_wash_the?force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes
+2025-12-25 15:30:20 [32mINFO[0m root: HEADERS : {'Content-Type': 'application/json'}
+2025-12-25 15:30:20 [32mINFO[0m root: PARAMS  : {'force_no_encrypt': '567f9c9a-28cf-4096-b540-e428f40a1e74-jh82'}
+2025-12-25 15:30:20 [32mINFO[0m root: JSON    : {}
+2025-12-25 15:30:21 [32mINFO[0m root: ========== 📥 API 响应 ==========
+2025-12-25 15:30:21 [32mINFO[0m root: STATUS  : 200
+2025-12-25 15:30:21 [32mINFO[0m root: BODY    : {"code":200,"message":"success","data":{"wash_the_amount":"0","valid_flow":"0","valid_amount":"0","valid_flow_deducted":"0","not_claimed":0,"type":0,"bill_no":null,"remaining_time":"00:00","available_wash_the_amount":0,"valid_flow_data":{"fish":{"valid_flow":0,"valid_amount":"0","valid_amount_min":"1.00","cashback_ratio":0.005},"live":{"valid_flow":0,"valid_amount":"0","valid_amount_min":"1.00","cashback_ratio":0.004},"sport":{"valid_flow":0,"valid_amount":"0","valid_amount_min":"1.00","cashback_ratio":0.006},"poker":{"valid_flow":0,"valid_amount":"0","valid_amount_min":"1.00","cashback_ratio":0.006},"slot":{"valid_flow":0,"valid_amount":"0","valid_amount_min":"1.00","cashback_ratio":0.006}}}}
+2025-12-25 15:30:21 [32mINFO[0m root: ========== 📌 API 断言 ==========
+2025-12-25 15:30:21 [32mINFO[0m root: [HTTP] status=200
+2025-12-25 15:30:21 [32mINFO[0m root: [业务断言] 实际 code=200 | 允许=[200]
+2025-12-25 15:30:21 [32mINFO[0m root: [HTTP断言] 实际=200 | 允许=[200]
