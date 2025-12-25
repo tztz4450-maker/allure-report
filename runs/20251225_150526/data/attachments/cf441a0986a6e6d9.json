@@ -1,0 +1,16 @@
+{
+  "detail": [
+    {
+      "type": "string_too_short",
+      "loc": [
+        "body",
+        "phone"
+      ],
+      "msg": "String should have at least 5 characters",
+      "input": "",
+      "ctx": {
+        "min_length": 5
+      }
+    }
+  ]
+}
