@@ -1,0 +1,14 @@
+2025-12-26 07:30:08 [32mINFO[0m root: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-12-26 07:30:08 [32mINFO[0m root: ========== 🌐 API 请求 ==========
+2025-12-26 07:30:08 [32mINFO[0m root: METHOD  : POST
+2025-12-26 07:30:08 [32mINFO[0m root: URL     : https://23pg1.com/api/users/i/info?force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes
+2025-12-26 07:30:08 [32mINFO[0m root: HEADERS : {'Content-Type': 'application/json'}
+2025-12-26 07:30:08 [32mINFO[0m root: PARAMS  : {'force_no_encrypt': '567f9c9a-28cf-4096-b540-e428f40a1e74-jh82'}
+2025-12-26 07:30:08 [32mINFO[0m root: JSON    : {}
+2025-12-26 07:30:10 [32mINFO[0m root: ========== 📥 API 响应 ==========
+2025-12-26 07:30:10 [32mINFO[0m root: STATUS  : 200
+2025-12-26 07:30:10 [32mINFO[0m root: BODY    : {"data":{"id":101324,"username":"tz7001","real_name":"大洋","account":{"balance_cny":"0","balance":"0"},"is_binding":false,"wp_confirmed":false,"ps_confirmed":true,"created":"2025-11-24T02:12:51Z","gender":2,"birthday":"2004-12-31T16:00:00Z","avatar":null,"is_vip":false,"country_code":null,"active":true,"email":null,"phone":null,"week_profit":{},"points":0.0,"svip":0,"transfer_is_hide_platform":true,"transfer_is_custom":true,"last_login_at":"2025-12-25T23:30:04Z","last_login_ip":"31.223.184.108"},"code":"200"}
+2025-12-26 07:30:10 [32mINFO[0m root: ========== 📌 API 断言 ==========
+2025-12-26 07:30:10 [32mINFO[0m root: [HTTP] status=200
+2025-12-26 07:30:10 [32mINFO[0m root: [业务断言] 实际 code=200 | 允许=[200]
+2025-12-26 07:30:10 [32mINFO[0m root: [HTTP断言] 实际=200 | 允许=[200]
