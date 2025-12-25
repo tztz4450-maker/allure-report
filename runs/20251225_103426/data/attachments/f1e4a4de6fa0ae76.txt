@@ -1,0 +1,14 @@
+2025-12-25 10:33:54 [32mINFO[0m root: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-12-25 10:33:54 [32mINFO[0m root: ========== 🌐 API 请求 ==========
+2025-12-25 10:33:54 [32mINFO[0m root: METHOD  : POST
+2025-12-25 10:33:54 [32mINFO[0m root: URL     : https://23pg1.com/api/cards/card_create?force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes
+2025-12-25 10:33:54 [32mINFO[0m root: HEADERS : {'Content-Type': 'application/json'}
+2025-12-25 10:33:54 [32mINFO[0m root: PARAMS  : {'force_no_encrypt': '567f9c9a-28cf-4096-b540-e428f40a1e74-jh82'}
+2025-12-25 10:33:54 [32mINFO[0m root: JSON    : {"type": "bank", "account": "6225889290705369", "open_bank": "招商银行", "sub_bank": "支行", "default": true, "real_name": "王哈", "wp_password": "123456", "email": "tztz4450@gmail.com", "verify_code": "123456"}
+2025-12-25 10:33:55 [32mINFO[0m root: ========== 📥 API 响应 ==========
+2025-12-25 10:33:55 [32mINFO[0m root: STATUS  : 400
+2025-12-25 10:33:55 [32mINFO[0m root: BODY    : {"code":40001,"message":"验证码错误或无效！"}
+2025-12-25 10:33:55 [32mINFO[0m root: ========== 📌 API 断言 ==========
+2025-12-25 10:33:55 [32mINFO[0m root: [HTTP] status=400
+2025-12-25 10:33:55 [32mINFO[0m root: [业务断言] 实际 code=40001 | 允许=[40001]
+2025-12-25 10:33:55 [32mINFO[0m root: [HTTP断言] 实际=400 | 允许=[400]
