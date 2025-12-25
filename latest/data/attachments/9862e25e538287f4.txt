@@ -1,0 +1,12 @@
+2025-12-25 11:06:36 [32mINFO[0m root: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-12-25 11:06:36 [32mINFO[0m root: ========== 🌐 API 请求 ==========
+2025-12-25 11:06:36 [32mINFO[0m root: METHOD  : GET
+2025-12-25 11:06:36 [32mINFO[0m root: URL     : https://23pg1.com/api/cache/every_time_draw?force_no_encrypt=567f9c9a-28cf-4096-b540-e428f40a1e74-jh82&isDev=yes
+2025-12-25 11:06:36 [32mINFO[0m root: HEADERS : {'Content-Type': 'application/json'}
+2025-12-25 11:06:36 [32mINFO[0m root: PARAMS  : {'force_no_encrypt': '567f9c9a-28cf-4096-b540-e428f40a1e74-jh82'}
+2025-12-25 11:06:37 [32mINFO[0m root: ========== 📥 API 响应 ==========
+2025-12-25 11:06:37 [32mINFO[0m root: STATUS  : 200
+2025-12-25 11:06:37 [32mINFO[0m root: BODY    : {"timestamp":1766631600,"data":[{"game_id":1205,"name":"神奇宠物","platform":"PA","code":"WH55","img":"/upload/game/PA/shenqichongwu_jpg.image","h5_img":"/upload/game/PA/shenqichongwu_jpg.image","is_screen":false,"is_iframe":false,"odds":96.74,"type":"slot","bet_amount":1987.0,"payout_amount":192235,"username":"HP***78","timestamp":1766622923},{"game_id":375,"name":"幸运龙","platform":"JDB","code":"8001","img":"/upload/game/JDB/xingyunlong_jpg.image","h5_img":"/upload/game/JDB/xingyunlong_jpg.image","is_screen":false,"is_iframe":true,"odds":96.16,"type":"slot","bet_amount":1949.0,"payout_amount":187486,"username":"d0***14","timestamp":1766549442},{"game_id":650,"name":"小哪吒","platform":"CQ9","code":"AR80","img":"/upload/game/CQ9/xiaonezha_jpg.image","h5_img":"/upload/game/CQ9/xiaonezha_jpg.image","is_screen":false,"is_iframe":false,"odds":94.13,"type":"slot","bet_amount":1839.0,"payout_amount":173158,"username":"L3***oJ","timestamp":1766592009},{"game_id":1184,"name":"翻倍宝器","platform":"PA","code":"WH48","img":"/upload/game/PA/fanbeibaoqi_jpg.image","h5_img":"/upload/game/PA/fanbeibaoqi_jpg.image","is_screen":false,"is_iframe":false,"odds":96.02,"type":"slot","bet_amount":1674.0,"payout_amount":160832,"username":"kk***XH","timestamp":1766621323},{"game_id":2409,"name":"墨西哥餐厅","platform":"PPSlot","code":"vs40bigjuan","img":"/upload/game/PPSlot/moxigecanting_jpg.image","h5_img":"/upload/game/PPSlot/moxigecanting_jpg.image","is_screen":false,"is_iframe":true,"odds":96.7,"type":"slot","be
+2025-12-25 11:06:37 [32mINFO[0m root: ========== 📌 API 断言 ==========
+2025-12-25 11:06:37 [32mINFO[0m root: [HTTP] status=200
+2025-12-25 11:06:37 [32mINFO[0m root: [HTTP断言] 实际=200 | 允许=[200]
